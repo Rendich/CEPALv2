@@ -174,7 +174,7 @@ Para la tercera visualización se utiliza la función HierarchicalEdgeBundleSect
 ```
 
 
-## Base y Agradecimientos
+## Base
 La primera y segunda visualización se basa en:
 https://observablehq.com/@d3/zoomable-sunburst, con licencia ISC License.  
 La tercera visualización se basa en:
