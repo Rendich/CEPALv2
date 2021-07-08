@@ -1,5 +1,8 @@
 # Visualización de Vínculos PND-ODS
-Se desea visualizar los vínculos entre el Plan Nacional de Desarrollo de Paraguay y los Objetivos de Desarrollo Sostenible de la Agenda 2030. Se busca una visualización dinámica que sirva como mecanismo de difusión de los objetivos de desarrollo en el país para múltiples interesados, presentando el vínculo entre cada elemento del plan y su(s) correspondiente(s) objetivo(s).
+Se desea visualizar los vínculos entre el Plan Nacional de Desarrollo de Paraguay y los Objetivos de Desarrollo Sostenible de la Agenda 2030. Se busca una visualización dinámica que sirva como mecanismo de difusión de los objetivos de desarrollo en el país para múltiples interesados, presentando el vínculo entre cada elemento del plan y su(s) correspondiente(s) objetivo(s).  
+- Versión inicial disponible en: https://rendich-cepal.web.app.  
+- Versión actual disponible en: https://rendich-cepal-v2.web.app.  
+
 ## Resumen
 El Plan Nacional de Desarrollo (PND) consta de 16 objetivos estratégicos y 72  objetivos específicos. Por otro lado, los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030 constan de 17 objetivos con 169 metas.
 La visualización busca graficar dichas relaciones y estará diseñada para ser accedida desde equipos de pantalla grande (principalmente, notebook y computador de escritorio).
@@ -51,6 +54,13 @@ sunBurstSection(fileCsv,
         stringTitle = "Metas ODS ";
         colLeft = 0;
         colRight = 3;
+
+        var sunburstColor = d3version4.scaleOrdinal().domain(d3version4.range(18))
+          .range([
+          "FFFFFF",
+          "DC022F", "D4972D", "3F9336", "B80B24", "E72823",  "26B2E0", "F9B912", "900B35", "EC5324", "D30055",
+          "F48B21", "B07B22", "336E36", "1D83CA", "4BB037",  "13558D", "123858", 
+        ]);
 ```
 ## Valores para la segunda visualización:
 ```
