@@ -41,6 +41,9 @@ La tabla asociada muestra la vinculación de las Metas ODS con los Objetivos PND
 En este caso, las primeras filas del PND 4.4.2, donde se ven vinculaciones de los 3 tipos: Parcial, Contribución y Total:  
 <img width="653" src="https://user-images.githubusercontent.com/44811829/124860862-7bc13680-df80-11eb-9825-6e449bef0621.png">
 
+Además, los arcos internos muestran la cantidad de componentes de ODS u Objetivo Estratégico
+![cepal5](https://user-images.githubusercontent.com/44811829/124878452-2003a700-df9a-11eb-8e09-d1c622ed51b4.gif)
+
 
 # Aspectos Técnicos
 ## Configuración
