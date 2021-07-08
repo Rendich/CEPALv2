@@ -28,7 +28,7 @@ Puedes navegar por el gráfico, o utilizando la lista de la izquierda, con lo qu
 
 
 
-# Parte Técnica
+# Aspectos Técnicos
 ## Configuración
 Esta visualización  se crea con la funcion sunBurstSection, a través de los siguientes parámetros:
 ```
