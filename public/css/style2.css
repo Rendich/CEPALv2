@@ -1,0 +1,90 @@
+path.arc {
+  cursor: move;
+  fill: #fff;
+}
+.node {
+  font-size: 10px;
+}
+.node:hover {
+  fill: #BBBBBB;
+}
+.link {
+  fill: none;
+  stroke: #BBBBBB;
+  stroke-opacity: .4;
+  pointer-events: none;
+}
+.link.source, .link.target {
+  stroke-opacity: 1;
+  stroke-width: 2px;
+}
+.node.source {
+  fill: #d62728;
+  fill: #00f;
+}
+.node.target {
+  fill: #00f !important;
+}
+.link.source {
+  stroke: #FFFF00; /*CONEXION amarillo*/
+  stroke: #FF8800; /*CONEXION naranja*/
+}
+.link.target {
+  stroke: #FF0000; /*CONEXION rojo*/
+}
+div.tooltip {
+  position: absolute;
+  width: 260px;
+  height: 120px;
+  padding: 2px;
+  font: 12px sans-serif;
+  border: 0px;
+  border-radius: 8px;
+}
+/**************/
+.bold-green-font {
+  font-weight: bold;
+  color: green;
+}
+.bold-font {
+  font-weight: bold;
+}
+.right-text {
+  text-align: right;
+}
+.large-font {
+  font-size: 15px;
+}
+.italic-darkblue-font {
+  font-style: italic;
+  color: darkblue;
+}
+.italic-purple-font {
+  font-style: italic;
+  color: purple;
+}
+.underline-blue-font {
+  text-decoration: underline;
+  color: blue;
+}
+.gold-border {
+  border: 3px solid gold;
+}
+.deeppink-border {
+  border: 3px solid deeppink;
+}
+.orange-background {
+  background-color: orange;
+}
+.orchid-background {
+  background-color: orchid;
+}
+.beige-background {
+  background-color: beige;
+}
+.relation_Total.link {
+  stroke: #FF0000; /*CONEXION rojo oscuro*/
+}
+.relation_Parcial.link {
+  stroke: #FFFF00; /*CONEXION amarillo oscuro*/
+}

@@ -1,0 +1,1072 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "id": "ODS_1.1",
+                    "name": "1.1 Para 2030, erradicar la pobreza extrema para todas las personas en el mundo, actualmente medida por un ingreso por persona inferior a 1,25 d\u00f3lares de los Estados Unidos al d\u00eda",
+                    "ods_class": 1,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_1.2",
+                    "name": "1.2 Para 2030, reducir al menos a la mitad la proporci\u00f3n de hombres, mujeres y ni\u00f1os de todas las edades que viven en la pobreza en todas sus dimensiones con arreglo a las definiciones nacionales",
+                    "ods_class": 1,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_1.3",
+                    "name": "1.3 Poner en pr\u00e1ctica a nivel nacional sistemas y medidas apropiadas de protecci\u00f3n social para todos y, para 2030, lograr una amplia cobertura de los pobres y los m\u00e1s vulnerables.",
+                    "ods_class": 1,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_1.4",
+                    "name": "1.4 Para 2030, garantizar que todos los hombres y mujeres, en particular los pobres y los vulnerables, tengan los mismos derechos a los recursos econ\u00f3micos, as\u00ed como acceso a los servicios b\u00e1sicos, la propiedad y el control de las tierras y otros bienes, la herencia, los recursos naturales, las nuevas tecnolog\u00edas apropiadas y los servicios financieros, incluida la micro financiaci\u00f3n",
+                    "ods_class": 1,
+                    "value": 6
+                },
+                {
+                    "id": "ODS_1.5",
+                    "name": "1.5 \u00a0Para 2030, fomentar la resiliencia de los pobres y las personas que se encuentran en situaciones vulnerables y reducir su exposici\u00f3n y vulnerabilidad a los fen\u00f3menos extremos relacionados con el clima y otras crisis y desastres econ\u00f3micos, sociales y ambientales",
+                    "ods_class": 1,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_1.a",
+                    "name": "1.a Garantizar una movilizaci\u00f3n importante de recursos procedentes de diversas fuentes, incluso mediante la mejora de la cooperaci\u00f3n para el desarrollo, a fin de proporcionar medios suficientes y previsibles para los pa\u00edses en desarrollo, en particular los pa\u00edses menos adelantados, para poner en pr\u00e1ctica programas y pol\u00edticas encaminados a poner fin a la pobreza en todas sus dimensiones.",
+                    "ods_class": 1,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_1.b",
+                    "name": "1.b Crear marcos normativos s\u00f3lidos en el \u00e1mbito nacional, regional e internacional, sobre la base de estrategias de desarrollo en favor de los pobres que tengan en cuenta las cuestiones de g\u00e9nero, a fin de apoyar la inversi\u00f3n acelerada en medidas para erradicar la pobreza.",
+                    "ods_class": 1,
+                    "value": 2
+                }
+            ],
+            "id": "ODS_1",
+            "name": 1,
+            "ods_class": 1
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_2.1",
+                    "name": "2.1 Para 2030, poner fin al hambre y asegurar el acceso de todas las personas, en particular los pobres y las personas en situaciones vulnerables, incluidos los lactantes, a una alimentaci\u00f3n sana, nutritiva y suficiente durante todo el a\u00f1o",
+                    "ods_class": 2,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_2.2",
+                    "name": "2.2 Para 2030, poner fin a todas las formas de malnutrici\u00f3n, incluso logrando, a m\u00e1s tardar en 2025, las metas convenidas internacionalmente sobre el retraso del crecimiento y la emaciaci\u00f3n de los ni\u00f1os menores de 5 a\u00f1os, y abordar las necesidades de nutrici\u00f3n de las adolescentes, las mujeres embarazadas y lactantes y las personas de edad",
+                    "ods_class": 2,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_2.3",
+                    "name": "2.3 Para 2030, duplicar la productividad agr\u00edcola y los ingresos de los productores de alimentos en peque\u00f1a escala, en particular las mujeres, los pueblos ind\u00edgenas, los agricultores familiares, los pastores y los pescadores, entre otras cosas mediante un acceso seguro y equitativo a las tierras, a otros recursos de producci\u00f3n e insumos, conocimientos, servicios financieros, mercados y oportunidades para la generaci\u00f3n de valor a\u00f1adido y empleos no agr\u00edcolas",
+                    "ods_class": 2,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_2.4",
+                    "name": "2.4 Para 2030, asegurar la sostenibilidad de los sistemas de producci\u00f3n de alimentos y aplicar pr\u00e1cticas agr\u00edcolas resilientes que aumenten la productividad y la producci\u00f3n, contribuyan al mantenimiento de los ecosistemas, fortalezcan la capacidad de adaptaci\u00f3n al cambio clim\u00e1tico, los fen\u00f3menos meteorol\u00f3gicos extremos, las sequ\u00edas, las inundaciones y otros desastres, y mejoren progresivamente la calidad del suelo y la tierra",
+                    "ods_class": 2,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_2.5",
+                    "name": "2.5 Para 2020, mantener la diversidad gen\u00e9tica de las semillas, las plantas cultivadas y los animales de granja y domesticados y sus especies silvestres conexas, entre otras cosas mediante una buena gesti\u00f3n y diversificaci\u00f3n de los bancos de semillas y plantas a nivel nacional, regional e internacional, y promover el acceso a los beneficios que se deriven de la utilizaci\u00f3n de los recursos gen\u00e9ticos y los conocimientos tradicionales y su distribuci\u00f3n justa y equitativa, como se ha convenido internacionalmente",
+                    "ods_class": 2,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_2.a",
+                    "name": "2.a Aumentar las inversiones, incluso mediante una mayor cooperaci\u00f3n internacional, en la infraestructura rural, la investigaci\u00f3n agr\u00edcola y los servicios de extensi\u00f3n, el desarrollo tecnol\u00f3gico y los bancos de genes de plantas y ganado a fin de mejorar ",
+                    "ods_class": 2,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_2.b",
+                    "name": "2.b \u00a0Corregir y prevenir las restricciones y distorsiones comerciales en los mercados agropecuarios mundiales, entre otras cosas mediante la eliminaci\u00f3n paralela de todas las formas de subvenciones a las exportaciones agr\u00edcolas y todas las medidas de exportaci\u00f3n con efectos equivalentes, de conformidad con el mandato de la Ronda de Doha para el Desarrollo",
+                    "ods_class": 2,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_2.c",
+                    "name": "2.c Adoptar medidas para asegurar el buen funcionamiento de los mercados de productos b\u00e1sicos alimentarios y sus derivados y facilitar el acceso oportuno a informaci\u00f3n sobre los mercados, en particular sobre las reservas de alimentos, a fin de ayudar a limitar la extrema volatilidad de los precios de los alimentos",
+                    "ods_class": 2,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_2",
+            "name": 2,
+            "ods_class": 2
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_3.1",
+                    "name": "3.1 Para 2030, reducir la tasa mundial de mortalidad materna a menos de 70 por cada 100.000 nacidos vivos",
+                    "ods_class": 3,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_3.3",
+                    "name": "3.3 Para 2030, poner fin a las epidemias del SIDA, la tuberculosis, la malaria y las enfermedades tropicales desatendidas y combatir la hepatitis, las enfermedades transmitidas por el agua y otras enfermedades transmisibles",
+                    "ods_class": 3,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_3.4",
+                    "name": "3.4 Para 2030, reducir en un tercio la mortalidad prematura por enfermedades no transmisibles mediante la prevenci\u00f3n y el tratamiento y promover la salud mental y el bienestar",
+                    "ods_class": 3,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_3.8",
+                    "name": "3.8 Lograr la cobertura sanitaria universal, en particular la protecci\u00f3n contra los riesgos financieros, el acceso a servicios de salud esenciales de calidad y el acceso a medicamentos y vacunas seguros, eficaces, asequibles y de calidad para todos",
+                    "ods_class": 3,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_3.9",
+                    "name": "3.9 Para 2030, reducir sustancialmente el n\u00famero de muertes y enfermedades producidas por productos qu\u00edmicos peligrosos y la contaminaci\u00f3n del aire, el agua y el suelo",
+                    "ods_class": 3,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_3.2\u00a0",
+                    "name": "3.2\u00a0 Para 2030, poner fin a las muertes evitables de reci\u00e9n nacidos y de ni\u00f1os menores de 5 a\u00f1os, logrando que todos los pa\u00edses intenten reducir la mortalidad neonatal al menos hasta 12 por cada 1.000 nacidos vivos, y la mortalidad de ni\u00f1os menores de 5 a\u00f1os al menos hasta 25 por cada 1.000 nacidos vivos",
+                    "ods_class": 3,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_3.5\u00a0",
+                    "name": "3.5\u00a0 Fortalecer la prevenci\u00f3n y el tratamiento del abuso de sustancias adictivas, incluido el uso indebido de estupefacientes y el consumo nocivo de alcohol",
+                    "ods_class": 3,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_3.6\u00a0",
+                    "name": "3.6\u00a0 Para 2020, reducir a la mitad el n\u00famero de muertes y lesiones causadas por accidentes de tr\u00e1fico en el mundo",
+                    "ods_class": 3,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_3.7\u00a0",
+                    "name": "3.7\u00a0 Para 2030, garantizar el acceso universal a los servicios de salud sexual y reproductiva, incluidos los de planificaci\u00f3n de la familia, informaci\u00f3n y educaci\u00f3n, y la integraci\u00f3n de la salud reproductiva en las estrategias y los programas nacionales",
+                    "ods_class": 3,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_3.9\u00a0",
+                    "name": "3.9\u00a0 Para 2030, reducir sustancialmente el n\u00famero de muertes y enfermedades producidas por productos qu\u00edmicos peligrosos y la contaminaci\u00f3n del aire, el agua y el suelo",
+                    "ods_class": 3,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_3.b\u00a0",
+                    "name": "3.b\u00a0 Apoyar las actividades de investigaci\u00f3n y desarrollo de vacunas y medicamentos para las enfermedades transmisibles y no transmisibles que afectan primordialmente a los pa\u00edses en desarrollo y facilitar el acceso a medicamentos y vacunas esenciales asequibles de conformidad con la Declaraci\u00f3n de Doha relativa al Acuerdo sobre los ADPIC y la Salud P\u00fablica, en la que se afirma el derecho de los pa\u00edses en desarrollo a utilizar al m\u00e1ximo las disposiciones del Acuerdo sobre los Aspectos de los Derechos de Propiedad Intelectual Relacionados con el Comercio en lo relativo a la flexibilidad para proteger la salud p\u00fablica y, en particular, proporcionar acceso a los medicamentos para todos",
+                    "ods_class": 3,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_3.c",
+                    "name": "3.c Aumentar sustancialmente la financiaci\u00f3n de la salud y la contrataci\u00f3n, el desarrollo, la capacitaci\u00f3n y la retenci\u00f3n del personal sanitario en los pa\u00edses en desarrollo, especialmente en los pa\u00edses menos adelantados y los peque\u00f1os Estados insulares en desarrollo",
+                    "ods_class": 3,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_3",
+            "name": 3,
+            "ods_class": 3
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_4.1",
+                    "name": "4.1 De aqu\u00ed a 2030, asegurar que todas las ni\u00f1as y todos los ni\u00f1os terminen la ense\u00f1anza primaria y secundaria, que ha de ser gratuita, equitativa y de calidad y producir resultados de aprendizaje pertinentes y efectivos",
+                    "ods_class": 4,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_4.2",
+                    "name": "4.2 De aqu\u00ed a 2030, asegurar que todas las ni\u00f1as y todos los ni\u00f1os tengan acceso a servicios de atenci\u00f3n y desarrollo en la primera infancia y educaci\u00f3n preescolar de calidad, a fin de que est\u00e9n preparados para la ense\u00f1anza primaria",
+                    "ods_class": 4,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_4.3",
+                    "name": "4.3 De aqu\u00ed a 2030, asegurar el acceso igualitario de todos los hombres y las mujeres a una formaci\u00f3n t\u00e9cnica, profesional y superior de calidad, incluida la ense\u00f1anza universitaria",
+                    "ods_class": 4,
+                    "value": 4
+                },
+                {
+                    "id": "ODS_4.4",
+                    "name": "4.4 De aqu\u00ed a 2030, aumentar considerablemente el n\u00famero de j\u00f3venes y adultos que tienen las competencias necesarias, en particular t\u00e9cnicas y profesionales, para acceder al empleo, el trabajo decente y el emprendimiento",
+                    "ods_class": 4,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_4.5",
+                    "name": "4.5 De aqu\u00ed a 2030, eliminar las disparidades de g\u00e9nero en la educaci\u00f3n y asegurar el acceso igualitario a todos los niveles de la ense\u00f1anza y la formaci\u00f3n profesional para las personas vulnerables, incluidas las personas con discapacidad, los pueblos ind\u00edgenas y los ni\u00f1os en situaciones de vulnerabilidad",
+                    "ods_class": 4,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_4.6",
+                    "name": "4.6 De aqu\u00ed a 2030, asegurar que todos los j\u00f3venes y una proporci\u00f3n considerable de los adultos, tanto hombres como mujeres, est\u00e9n alfabetizados y tengan nociones elementales de aritm\u00e9tica",
+                    "ods_class": 4,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_4.7",
+                    "name": "4.7 De aqu\u00ed a 2030, asegurar que todos los alumnos adquieran los conocimientos te\u00f3ricos y pr\u00e1cticos necesarios para promover el desarrollo sostenible, entre otras cosas mediante la educaci\u00f3n para el desarrollo sostenible y los estilos de vida sostenibles, los derechos humanos, la igualdad de g\u00e9nero, la promoci\u00f3n de una cultura de paz y no violencia, la ciudadan\u00eda mundial y la valoraci\u00f3n de la diversidad cultural y la contribuci\u00f3n de la cultura al desarrollo sostenible",
+                    "ods_class": 4,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_4.a",
+                    "name": "4.a Construir y adecuar instalaciones educativas que tengan en cuenta las necesidades de los ni\u00f1os y las personas con discapacidad y las diferencias de g\u00e9nero, y que ofrezcan entornos de aprendizaje seguros, no violentos, inclusivos y eficaces para todos",
+                    "ods_class": 4,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_4.b",
+                    "name": "4.b \u00a0De aqu\u00ed a 2020, aumentar considerablemente a nivel mundial el n\u00famero de becas disponibles para los pa\u00edses en desarrollo, en particular los pa\u00edses menos adelantados, los peque\u00f1os Estados insulares en desarrollo y los pa\u00edses africanos, a fin de que sus estudiantes puedan matricularse en programas de ense\u00f1anza superior, incluidos programas de formaci\u00f3n profesional y programas t\u00e9cnicos, cient\u00edficos, de ingenier\u00eda y de tecnolog\u00eda de la informaci\u00f3n y las comunicaciones, de pa\u00edses desarrollados y otros pa\u00edses en desarrollo",
+                    "ods_class": 4,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_4.c",
+                    "name": "4.c De aqu\u00ed a 2030, aumentar considerablemente la oferta de docentes calificados, incluso mediante la cooperaci\u00f3n internacional para la formaci\u00f3n de docentes en los pa\u00edses en desarrollo, especialmente los pa\u00edses menos adelantados y los peque\u00f1os Estados i",
+                    "ods_class": 4,
+                    "value": 3
+                }
+            ],
+            "id": "ODS_4",
+            "name": 4,
+            "ods_class": 4
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_5.1",
+                    "name": "5.1 \u00a0Poner fin a todas las formas de discriminaci\u00f3n contra todas las mujeres y las ni\u00f1as en todo el mundo",
+                    "ods_class": 5,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_5.2",
+                    "name": "5.2 Eliminar todas las formas de violencia contra todas las mujeres y las ni\u00f1as en los \u00e1mbitos p\u00fablico y privado, incluidas la trata y la explotaci\u00f3n sexual y otros tipos de explotaci\u00f3n",
+                    "ods_class": 5,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_5.3",
+                    "name": "5.3 Eliminar todas las pr\u00e1cticas nocivas, como el matrimonio infantil, precoz y forzado y la mutilaci\u00f3n genital femenina",
+                    "ods_class": 5,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_5.4",
+                    "name": "5.4 Reconocer y valorar los cuidados y el trabajo dom\u00e9stico no remunerados mediante servicios p\u00fablicos, infraestructuras y pol\u00edticas de protecci\u00f3n social, y promoviendo la responsabilidad compartida en el hogar y la familia, seg\u00fan proceda en cada pa\u00eds",
+                    "ods_class": 5,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_5.5",
+                    "name": "5.5 Asegurar la participaci\u00f3n plena y efectiva de las mujeres y la igualdad de oportunidades de liderazgo a todos los niveles decisorios en la vida pol\u00edtica, econ\u00f3mica y p\u00fablica",
+                    "ods_class": 5,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_5.6",
+                    "name": "5.6 Asegurar el acceso universal a la salud sexual y reproductiva y los derechos reproductivos seg\u00fan lo acordado de conformidad con el Programa de Acci\u00f3n de la Conferencia Internacional sobre la Poblaci\u00f3n y el Desarrollo, la Plataforma de Acci\u00f3n de Beijing y los documentos finales de sus conferencias de examen",
+                    "ods_class": 5,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_5.a",
+                    "name": "5.a Emprender reformas que otorguen a las mujeres igualdad de derechos a los recursos econ\u00f3micos, as\u00ed como acceso a la propiedad y al control de la tierra y otros tipos de bienes, los servicios financieros, la herencia y los recursos naturales, de conformidad con las leyes nacionales",
+                    "ods_class": 5,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_5.b",
+                    "name": "5.b Mejorar el uso de la tecnolog\u00eda instrumental, en particular la tecnolog\u00eda de la informaci\u00f3n y las comunicaciones, para promover el empoderamiento de las mujeres",
+                    "ods_class": 5,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_5.c",
+                    "name": "5.c Aprobar y fortalecer pol\u00edticas acertadas y leyes aplicables para promover la igualdad de g\u00e9nero y el empoderamiento de todas las mujeres y las ni\u00f1as a todos los niveles",
+                    "ods_class": 5,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_5",
+            "name": 5,
+            "ods_class": 5
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_6.1",
+                    "name": "6.1 De aqu\u00ed a 2030, lograr el acceso universal y equitativo al agua potable a un precio asequible para todos",
+                    "ods_class": 6,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_6.2",
+                    "name": "6.2 De aqu\u00ed a 2030, lograr el acceso a servicios de saneamiento e higiene adecuados y equitativos para todos y poner fin a la defecaci\u00f3n al aire libre, prestando especial atenci\u00f3n a las necesidades de las mujeres y las ni\u00f1as y las personas en situaciones de vulnerabilidad",
+                    "ods_class": 6,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_6.3",
+                    "name": "6.3 De aqu\u00ed a 2030, mejorar la calidad del agua reduciendo la contaminaci\u00f3n, eliminando el vertimiento y minimizando la emisi\u00f3n de productos qu\u00edmicos y materiales peligrosos, reduciendo a la mitad el porcentaje de aguas residuales sin tratar y aumentando considerablemente el reciclado y la reutilizaci\u00f3n sin riesgos a nivel mundial",
+                    "ods_class": 6,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_6.4",
+                    "name": "6.4 De aqu\u00ed a 2030, aumentar considerablemente el uso eficiente de los recursos h\u00eddricos en todos los sectores y asegurar la sostenibilidad de la extracci\u00f3n y el abastecimiento de agua dulce para hacer frente a la escasez de agua y reducir considerablemente el n\u00famero de personas que sufren falta de agua",
+                    "ods_class": 6,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_6.5",
+                    "name": "6.5 De aqu\u00ed a 2030, implementar la gesti\u00f3n integrada de los recursos h\u00eddricos a todos los niveles, incluso mediante la cooperaci\u00f3n transfronteriza, seg\u00fan proceda",
+                    "ods_class": 6,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_6.6",
+                    "name": "6.6 \u00a0De aqu\u00ed a 2020, proteger y restablecer los ecosistemas relacionados con el agua, incluidos los bosques, las monta\u00f1as, los humedales, los r\u00edos, los acu\u00edferos y los lagos",
+                    "ods_class": 6,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_6.a",
+                    "name": "6.a De aqu\u00ed a 2030, ampliar la cooperaci\u00f3n internacional y el apoyo prestado a los pa\u00edses en desarrollo para la creaci\u00f3n de capacidad en actividades y programas relativos al agua y el saneamiento, como los de captaci\u00f3n de agua, desalinizaci\u00f3n, uso eficiente de los recursos h\u00eddricos, tratamiento de aguas residuales, reciclado y tecnolog\u00edas de reutilizaci\u00f3n",
+                    "ods_class": 6,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_6.b",
+                    "name": "6.b Apoyar y fortalecer la participaci\u00f3n de las comunidades locales en la mejora de la gesti\u00f3n del agua y el saneamiento",
+                    "ods_class": 6,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_6.b\u00a0",
+                    "name": "6.b\u00a0 Apoyar y fortalecer la participaci\u00f3n de las comunidades locales en la mejora de la gesti\u00f3n del agua y el saneamiento",
+                    "ods_class": 6,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_6",
+            "name": 6,
+            "ods_class": 6
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_7.1",
+                    "name": "7.1 De aqu\u00ed a 2030, garantizar el acceso universal a servicios energ\u00e9ticos asequibles, fiables y modernos",
+                    "ods_class": 7,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_7.2",
+                    "name": "7.2 De aqu\u00ed a 2030, aumentar considerablemente la proporci\u00f3n de energ\u00eda renovable en el conjunto de fuentes energ\u00e9ticas",
+                    "ods_class": 7,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_7.3",
+                    "name": "7.3 De aqu\u00ed a 2030, duplicar la tasa mundial de mejora de la eficiencia energ\u00e9tica",
+                    "ods_class": 7,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_7.2\u00a0",
+                    "name": "7.2\u00a0 De aqu\u00ed a 2030, aumentar considerablemente la proporci\u00f3n de energ\u00eda renovable en el conjunto de fuentes energ\u00e9ticas",
+                    "ods_class": 7,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_7.a",
+                    "name": "7.a De aqu\u00ed a 2030, aumentar la cooperaci\u00f3n internacional para facilitar el acceso a la investigaci\u00f3n y la tecnolog\u00eda relativas a la energ\u00eda limpia, incluidas las fuentes renovables, la eficiencia energ\u00e9tica y las tecnolog\u00edas avanzadas y menos contaminantes de combustibles f\u00f3siles, y promover la inversi\u00f3n en infraestructura energ\u00e9tica y tecnolog\u00edas limpias",
+                    "ods_class": 7,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_7.b",
+                    "name": "7.b De aqu\u00ed a 2030, ampliar la infraestructura y mejorar la tecnolog\u00eda para prestar servicios energ\u00e9ticos modernos y sostenibles para todos en los pa\u00edses en desarrollo, en particular los pa\u00edses menos adelantados, los peque\u00f1os Estados insulares en desarrollo y los pa\u00edses en desarrollo sin litoral, en consonancia con sus respectivos programas de apoyo",
+                    "ods_class": 7,
+                    "value": 4
+                }
+            ],
+            "id": "ODS_7",
+            "name": 7,
+            "ods_class": 7
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_8.1",
+                    "name": "8.1 Mantener el crecimiento econ\u00f3mico per c\u00e1pita de conformidad con las circunstancias nacionales y, en particular, un crecimiento del producto interno bruto de al menos el 7% anual en los pa\u00edses menos adelantados",
+                    "ods_class": 8,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_8.2",
+                    "name": "8.2 Lograr niveles m\u00e1s elevados de productividad econ\u00f3mica mediante la diversificaci\u00f3n, la modernizaci\u00f3n tecnol\u00f3gica y la innovaci\u00f3n, entre otras cosas centr\u00e1ndose en los sectores con gran valor a\u00f1adido y un uso intensivo de la mano de obra",
+                    "ods_class": 8,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_8.3",
+                    "name": "8.3 Promover pol\u00edticas orientadas al desarrollo que apoyen las actividades productivas, la creaci\u00f3n de puestos de trabajo decentes, el emprendimiento, la creatividad y la innovaci\u00f3n, y fomentar la formalizaci\u00f3n y el crecimiento de las microempresas y las peque\u00f1as y medianas empresas, incluso mediante el acceso a servicios financieros",
+                    "ods_class": 8,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_8.4",
+                    "name": "8.4 Mejorar progresivamente, de aqu\u00ed a 2030, la producci\u00f3n y el consumo eficientes de los recursos mundiales y procurar desvincular el crecimiento econ\u00f3mico de la degradaci\u00f3n del medio ambiente, conforme al Marco Decenal de Programas sobre modalidades de Consumo y Producci\u00f3n Sostenibles, empezando por los pa\u00edses desarrollados",
+                    "ods_class": 8,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_8.5",
+                    "name": "8.5 De aqu\u00ed a 2030, lograr el empleo pleno y productivo y el trabajo decente para todas las mujeres y los hombres, incluidos los j\u00f3venes y las personas con discapacidad, as\u00ed como la igualdad de remuneraci\u00f3n por trabajo de igual valor",
+                    "ods_class": 8,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_8.6",
+                    "name": "8.6 De aqu\u00ed a 2020, reducir considerablemente la proporci\u00f3n de j\u00f3venes que no est\u00e1n empleados y no cursan estudios ni reciben capacitaci\u00f3n",
+                    "ods_class": 8,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_8.7",
+                    "name": "8.7 Adoptar medidas inmediatas y eficaces para erradicar el trabajo forzoso, poner fin a las formas contempor\u00e1neas de esclavitud y la trata de personas y asegurar la prohibici\u00f3n y eliminaci\u00f3n de las peores formas de trabajo infantil, incluidos el reclutamiento y la utilizaci\u00f3n de ni\u00f1os soldados, y, de aqu\u00ed a 2025, poner fin al trabajo infantil en todas sus formas",
+                    "ods_class": 8,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_8.8",
+                    "name": "8.8 Proteger los derechos laborales y promover un entorno de trabajo seguro y sin riesgos para todos los trabajadores, incluidos los trabajadores migrantes, en particular las mujeres migrantes y las personas con empleos precarios",
+                    "ods_class": 8,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_8.9",
+                    "name": "8.9 De aqu\u00ed a 2030, elaborar y poner en pr\u00e1ctica pol\u00edticas encaminadas a promover un turismo sostenible que cree puestos de trabajo y promueva la cultura y los productos locales",
+                    "ods_class": 8,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_8.10",
+                    "name": "8.10 Fortalecer la capacidad de las instituciones financieras nacionales para fomentar y ampliar el acceso a los servicios bancarios, financieros y de seguros para todos",
+                    "ods_class": 8,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_8.a\u00a0",
+                    "name": "8.a\u00a0 Aumentar el apoyo a la iniciativa de ayuda para el comercio en los pa\u00edses en desarrollo, en particular los pa\u00edses menos adelantados, incluso mediante el Marco Integrado Mejorado para la Asistencia T\u00e9cnica a los Pa\u00edses Menos Adelantados en Materia de Comercio",
+                    "ods_class": 8,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_8.b",
+                    "name": "8.b De aqu\u00ed a 2020, desarrollar y poner en marcha una estrategia mundial para el empleo de los j\u00f3venes y aplicar el Pacto Mundial para el Empleo de la Organizaci\u00f3n Internacional del Trabajo",
+                    "ods_class": 8,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_8",
+            "name": 8,
+            "ods_class": 8
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_9.1",
+                    "name": "9.1 Desarrollar infraestructuras fiables, sostenibles, resilientes y de calidad, incluidas infraestructuras regionales y transfronterizas, para apoyar el desarrollo econ\u00f3mico y el bienestar humano, haciendo especial hincapi\u00e9 en el acceso asequible y equitativo para todos",
+                    "ods_class": 9,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_9.2",
+                    "name": "9.2 Promover una industrializaci\u00f3n inclusiva y sostenible y, de aqu\u00ed a 2030, aumentar significativamente la contribuci\u00f3n de la industria al empleo y al producto interno bruto, de acuerdo con las circunstancias nacionales, y duplicar esa contribuci\u00f3n en los pa\u00edses menos adelantados",
+                    "ods_class": 9,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_9.3",
+                    "name": "9.3 Aumentar el acceso de las peque\u00f1as industrias y otras empresas, particularmente en los pa\u00edses en desarrollo, a los servicios financieros, incluidos cr\u00e9ditos asequibles, y su integraci\u00f3n en las cadenas de valor y los mercados",
+                    "ods_class": 9,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_9.4",
+                    "name": "9.4 De aqu\u00ed a 2030, modernizar la infraestructura y reconvertir las industrias para que sean sostenibles, utilizando los recursos con mayor eficacia y promoviendo la adopci\u00f3n de tecnolog\u00edas y procesos industriales limpios y ambientalmente racionales, y logrando que todos los pa\u00edses tomen medidas de acuerdo con sus capacidades respectivas",
+                    "ods_class": 9,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_9.5",
+                    "name": "9.5 Aumentar la investigaci\u00f3n cient\u00edfica y mejorar la capacidad tecnol\u00f3gica de los sectores industriales de todos los pa\u00edses, en particular los pa\u00edses en desarrollo, entre otras cosas fomentando la innovaci\u00f3n y aumentando considerablemente, de aqu\u00ed a 2030, el n\u00famero de personas que trabajan en investigaci\u00f3n y desarrollo por mill\u00f3n de habitantes y los gastos de los sectores p\u00fablico y privado en investigaci\u00f3n y desarrollo",
+                    "ods_class": 9,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_9.a",
+                    "name": "9.a Facilitar el desarrollo de infraestructuras sostenibles y resilientes en los pa\u00edses en desarrollo mediante un mayor apoyo financiero, tecnol\u00f3gico y t\u00e9cnico a los pa\u00edses africanos, los pa\u00edses menos adelantados, los pa\u00edses en desarrollo sin litoral y los peque\u00f1os Estados insulares en desarrollo",
+                    "ods_class": 9,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_9.b",
+                    "name": "9.b Apoyar el desarrollo de tecnolog\u00edas, la investigaci\u00f3n y la innovaci\u00f3n nacionales en los pa\u00edses en desarrollo, incluso garantizando un entorno normativo propicio a la diversificaci\u00f3n industrial y la adici\u00f3n de valor a los productos b\u00e1sicos, entre otras cosas",
+                    "ods_class": 9,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_9.c",
+                    "name": "9.c Aumentar significativamente el acceso a la tecnolog\u00eda de la informaci\u00f3n y las comunicaciones y esforzarse por proporcionar acceso universal y asequible a Internet en los pa\u00edses menos adelantados de aqu\u00ed a 2020",
+                    "ods_class": 9,
+                    "value": 2
+                }
+            ],
+            "id": "ODS_9",
+            "name": 9,
+            "ods_class": 9
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_10.1",
+                    "name": "10.1 De aqu\u00ed a 2030, lograr progresivamente y mantener el crecimiento de los ingresos del 40% m\u00e1s pobre de la poblaci\u00f3n a una tasa superior a la media nacional",
+                    "ods_class": 10,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_10.2",
+                    "name": "10.2 De aqu\u00ed a 2030, potenciar y promover la inclusi\u00f3n social, econ\u00f3mica y pol\u00edtica de todas las personas, independientemente de su edad, sexo, discapacidad, raza, etnia, origen, religi\u00f3n o situaci\u00f3n econ\u00f3mica u otra condici\u00f3n",
+                    "ods_class": 10,
+                    "value": 8
+                },
+                {
+                    "id": "ODS_10.3",
+                    "name": "10.3 Garantizar la igualdad de oportunidades y reducir la desigualdad de resultados, incluso eliminando las leyes, pol\u00edticas y pr\u00e1cticas discriminatorias y promoviendo legislaciones, pol\u00edticas y medidas adecuadas a ese respecto",
+                    "ods_class": 10,
+                    "value": 4
+                },
+                {
+                    "id": "ODS_10.4",
+                    "name": "10.4 Adoptar pol\u00edticas, especialmente fiscales, salariales y de protecci\u00f3n social, y lograr progresivamente una mayor igualdad",
+                    "ods_class": 10,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_10.5",
+                    "name": "10.5 Mejorar la reglamentaci\u00f3n y vigilancia de las instituciones y los mercados financieros mundiales y fortalecer la aplicaci\u00f3n de esos reglamentos",
+                    "ods_class": 10,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_10.7",
+                    "name": "10.7 Facilitar la migraci\u00f3n y la movilidad ordenadas, seguras, regulares y responsables de las personas, incluso mediante la aplicaci\u00f3n de pol\u00edticas migratorias planificadas y bien gestionadas",
+                    "ods_class": 10,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_10.b",
+                    "name": "10.b Fomentar la asistencia oficial para el desarrollo y las corrientes financieras, incluida la inversi\u00f3n extranjera directa, para los Estados con mayores necesidades, en particular los pa\u00edses menos adelantados, los pa\u00edses africanos, los peque\u00f1os Estados insulares en desarrollo y los pa\u00edses en desarrollo sin litoral, en consonancia con sus planes y programas nacionales",
+                    "ods_class": 10,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_10.c",
+                    "name": "10.c De aqu\u00ed a 2030, reducir a menos del 3% los costos de transacci\u00f3n de las remesas de los migrantes y eliminar los corredores de remesas con un costo superior al 5%",
+                    "ods_class": 10,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_10",
+            "name": 10,
+            "ods_class": 10
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_11.1",
+                    "name": "11.1 De aqu\u00ed a 2030, asegurar el acceso de todas las personas a viviendas y servicios b\u00e1sicos adecuados, seguros y asequibles y mejorar los barrios marginales",
+                    "ods_class": 11,
+                    "value": 5
+                },
+                {
+                    "id": "ODS_11.2",
+                    "name": "11.2 De aqu\u00ed a 2030, proporcionar acceso a sistemas de transporte seguros, asequibles, accesibles y sostenibles para todos y mejorar la seguridad vial, en particular mediante la ampliaci\u00f3n del transporte p\u00fablico, prestando especial atenci\u00f3n a las necesidades de las personas en situaci\u00f3n de vulnerabilidad, las mujeres, los ni\u00f1os, las personas con discapacidad y las personas de edad",
+                    "ods_class": 11,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_11.3",
+                    "name": "11.3 De aqu\u00ed a 2030, aumentar la urbanizaci\u00f3n inclusiva y sostenible y la capacidad para la planificaci\u00f3n y la gesti\u00f3n participativas, integradas y sostenibles de los asentamientos humanos en todos los pa\u00edses",
+                    "ods_class": 11,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_11.4",
+                    "name": "11.4 Redoblar los esfuerzos para proteger y salvaguardar el patrimonio cultural y natural del mundo",
+                    "ods_class": 11,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_11.5",
+                    "name": "11.5 De aqu\u00ed a 2030, reducir significativamente el n\u00famero de muertes causadas por los desastres, incluidos los relacionados con el agua, y de personas afectadas por ellos, y reducir considerablemente las p\u00e9rdidas econ\u00f3micas directas provocadas por los desastres en comparaci\u00f3n con el producto interno bruto mundial, haciendo especial hincapi\u00e9 en la protecci\u00f3n de los pobres y las personas en situaciones de vulnerabilidad",
+                    "ods_class": 11,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_11.6",
+                    "name": "11.6 De aqu\u00ed a 2030, reducir el impacto ambiental negativo per c\u00e1pita de las ciudades, incluso prestando especial atenci\u00f3n a la calidad del aire y la gesti\u00f3n de los desechos municipales y de otro tipo",
+                    "ods_class": 11,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_11.7",
+                    "name": "11.7 De aqu\u00ed a 2030, proporcionar acceso universal a zonas verdes y espacios p\u00fablicos seguros, inclusivos y accesibles, en particular para las mujeres y los ni\u00f1os, las personas de edad y las personas con discapacidad",
+                    "ods_class": 11,
+                    "value": 4
+                },
+                {
+                    "id": "ODS_11.a",
+                    "name": "11.a Apoyar los v\u00ednculos econ\u00f3micos, sociales y ambientales positivos entre las zonas urbanas, periurbanas y rurales fortaleciendo la planificaci\u00f3n del desarrollo nacional y regional",
+                    "ods_class": 11,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_11.b",
+                    "name": "11.b De aqu\u00ed a 2020, aumentar considerablemente el n\u00famero de ciudades y asentamientos humanos que adoptan e implementan pol\u00edticas y planes integrados para promover la inclusi\u00f3n, el uso eficiente de los recursos, la mitigaci\u00f3n del cambio clim\u00e1tico y la adaptaci\u00f3n a \u00e9l y la resiliencia ante los desastres, y desarrollar y poner en pr\u00e1ctica, en consonancia con el Marco de Sendai para la Reducci\u00f3n del Riesgo de Desastres 2015-2030, la gesti\u00f3n integral de los riesgos de desastre a todos los niveles",
+                    "ods_class": 11,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_11.c",
+                    "name": "11.c Proporcionar apoyo a los pa\u00edses menos adelantados, incluso mediante asistencia financiera y t\u00e9cnica, para que puedan construir edificios sostenibles y resilientes utilizando materiales locales",
+                    "ods_class": 11,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_11",
+            "name": 11,
+            "ods_class": 11
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_12.1",
+                    "name": "12.1 Aplicar el Marco Decenal de Programas sobre Modalidades de Consumo y Producci\u00f3n Sostenibles, con la participaci\u00f3n de todos los pa\u00edses y bajo el liderazgo de los pa\u00edses desarrollados, teniendo en cuenta el grado de desarrollo y las capacidades de los pa\u00edses en desarrollo",
+                    "ods_class": 12,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_12.2",
+                    "name": "12.2 De aqu\u00ed a 2030, lograr la gesti\u00f3n sostenible y el uso eficiente de los recursos naturales",
+                    "ods_class": 12,
+                    "value": 4
+                },
+                {
+                    "id": "ODS_12.3",
+                    "name": "12.3 De aqu\u00ed a 2030, reducir a la mitad el desperdicio de alimentos per capita mundial en la venta al por menor y a nivel de los consumidores y reducir las p\u00e9rdidas de alimentos en las cadenas de producci\u00f3n y suministro, incluidas las p\u00e9rdidas posteriores a la cosecha",
+                    "ods_class": 12,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_12.4",
+                    "name": "12.4 De aqu\u00ed a 2020, lograr la gesti\u00f3n ecol\u00f3gicamente racional de los productos qu\u00edmicos y de todos los desechos a lo largo de su ciclo de vida, de conformidad con los marcos internacionales convenidos, y reducir significativamente su liberaci\u00f3n a la atm\u00f3sfera, el agua y el suelo a fin de minimizar sus efectos adversos en la salud humana y el medio ambiente",
+                    "ods_class": 12,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_12.5",
+                    "name": "12.5 De aqu\u00ed a 2030, reducir considerablemente la generaci\u00f3n de desechos mediante actividades de prevenci\u00f3n, reducci\u00f3n, reciclado y reutilizaci\u00f3n",
+                    "ods_class": 12,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_12.6",
+                    "name": "12.6 Alentar a las empresas, en especial las grandes empresas y las empresas transnacionales, a que adopten pr\u00e1cticas sostenibles e incorporen informaci\u00f3n sobre la sostenibilidad en su ciclo de presentaci\u00f3n de informes",
+                    "ods_class": 12,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_12.7",
+                    "name": "12.7 Promover pr\u00e1cticas de adquisici\u00f3n p\u00fablica que sean sostenibles, de conformidad con las pol\u00edticas y prioridades nacionales",
+                    "ods_class": 12,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_12.8",
+                    "name": "12.8 De aqu\u00ed a 2030, asegurar que las personas de todo el mundo tengan la informaci\u00f3n y los conocimientos pertinentes para el desarrollo sostenible y los estilos de vida en armon\u00eda con la naturaleza",
+                    "ods_class": 12,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_12.a",
+                    "name": "12.a Ayudar a los pa\u00edses en desarrollo a fortalecer su capacidad cient\u00edfica y tecnol\u00f3gica para avanzar hacia modalidades de consumo y producci\u00f3n m\u00e1s sostenibles",
+                    "ods_class": 12,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_12.b",
+                    "name": "12.b Elaborar y aplicar instrumentos para vigilar los efectos en el desarrollo sostenible, a fin de lograr un turismo sostenible que cree puestos de trabajo y promueva la cultura y los productos locales",
+                    "ods_class": 12,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_12.c",
+                    "name": "12.c Racionalizar los subsidios ineficientes a los combustibles f\u00f3siles que fomentan el consumo antiecon\u00f3mico eliminando las distorsiones del mercado, de acuerdo con las circunstancias nacionales, incluso mediante la reestructuraci\u00f3n de los sistemas tributarios y la eliminaci\u00f3n gradual de los subsidios perjudiciales, cuando existan, para reflejar su impacto ambiental, teniendo plenamente en cuenta las necesidades y condiciones espec\u00edficas de los pa\u00edses en desarrollo y minimizando los posibles efectos adversos en su desarrollo, de manera que se proteja a los pobres y a las comunidades afectadas",
+                    "ods_class": 12,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_12",
+            "name": 12,
+            "ods_class": 12
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_13.1",
+                    "name": "13.1 Fortalecer la resiliencia y la capacidad de adaptaci\u00f3n a los riesgos relacionados con el clima y los desastres naturales en todos los pa\u00edses",
+                    "ods_class": 13,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_13.2",
+                    "name": "13.2 Incorporar medidas relativas al cambio clim\u00e1tico en las pol\u00edticas, estrategias y planes nacionales",
+                    "ods_class": 13,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_13.3",
+                    "name": "13.3 Mejorar la educaci\u00f3n, la sensibilizaci\u00f3n y la capacidad humana e institucional respecto de la mitigaci\u00f3n del cambio clim\u00e1tico, la adaptaci\u00f3n a \u00e9l, la reducci\u00f3n de sus efectos y la alerta temprana",
+                    "ods_class": 13,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_13.a",
+                    "name": "13.a Cumplir el compromiso de los pa\u00edses desarrollados que son partes en la Convenci\u00f3n Marco de las Naciones Unidas sobre el Cambio Clim\u00e1tico de lograr para el a\u00f1o 2020 el objetivo de movilizar conjuntamente 100.000 millones de d\u00f3lares anuales procedentes de todas las fuentes a fin de atender las necesidades de los pa\u00edses en desarrollo respecto de la adopci\u00f3n de medidas concretas de mitigaci\u00f3n y la transparencia de su aplicaci\u00f3n, y poner en pleno funcionamiento el Fondo Verde para el Clima capitaliz\u00e1ndolo lo antes posible",
+                    "ods_class": 13,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_13.b",
+                    "name": "13.b Promover mecanismos para aumentar la capacidad para la planificaci\u00f3n y gesti\u00f3n eficaces en relaci\u00f3n con el cambio clim\u00e1tico en los pa\u00edses menos adelantados y los peque\u00f1os Estados insulares en desarrollo, haciendo particular hincapi\u00e9 en las mujeres, los j\u00f3venes y las comunidades locales y marginadas. * Reconociendo que la Convenci\u00f3n Marco de las Naciones Unidas sobre el Cambio Clim\u00e1tico es el principal foro intergubernamental internacional para negociar la respuesta mundial al cambio clim\u00e1tico.",
+                    "ods_class": 13,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_13",
+            "name": 13,
+            "ods_class": 13
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_14.4",
+                    "name": "14.4 De aqu\u00ed a 2020, reglamentar eficazmente la explotaci\u00f3n pesquera y poner fin a la pesca excesiva, la pesca ilegal, no declarada y no reglamentada y las pr\u00e1cticas pesqueras destructivas, y aplicar planes de gesti\u00f3n con fundamento cient\u00edfico a fin de restablecer las poblaciones de peces en el plazo m\u00e1s breve posible, al menos alcanzando niveles que puedan producir el m\u00e1ximo rendimiento sostenible de acuerdo con sus caracter\u00edsticas biol\u00f3gicas",
+                    "ods_class": 14,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_14.6",
+                    "name": "14.6 De aqu\u00ed a 2020, prohibir ciertas formas de subvenciones a la pesca que contribuyen a la sobrecapacidad y la pesca excesiva, eliminar las subvenciones que contribuyen a la pesca ilegal, no declarada y no reglamentada y abstenerse de introducir nuevas subvenciones de esa \u00edndole, reconociendo que la negociaci\u00f3n sobre las subvenciones a la pesca en el marco de la Organizaci\u00f3n Mundial del Comercio debe incluir un trato especial y diferenciado, apropiado y efectivo para los pa\u00edses en desarrollo y los pa\u00edses menos adelantados",
+                    "ods_class": 14,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_14",
+            "name": 14,
+            "ods_class": 14
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_15.1",
+                    "name": "15.1 Para 2020, velar por la conservaci\u00f3n, el restablecimiento y el uso sostenible de los ecosistemas terrestres y los ecosistemas interiores de agua dulce y los servicios que proporcionan, en particular los bosques, los humedales, las monta\u00f1as y las zonas \u00e1ridas, en consonancia con las obligaciones contra\u00eddas en virtud de acuerdos internacionales",
+                    "ods_class": 15,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_15.2",
+                    "name": "15.2 Para 2020, promover la gesti\u00f3n sostenible de todos los tipos de bosques, poner fin a la deforestaci\u00f3n, recuperar los bosques degradados e incrementar la forestaci\u00f3n y la reforestaci\u00f3n a nivel mundial",
+                    "ods_class": 15,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_15.3",
+                    "name": "15.3 Para 2030, luchar contra la desertificaci\u00f3n, rehabilitar las tierras y los suelos degradados, incluidas las tierras afectadas por la desertificaci\u00f3n, la sequ\u00eda y las inundaciones, y procurar lograr un mundo con una degradaci\u00f3n neutra del suelo",
+                    "ods_class": 15,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_15.4",
+                    "name": "15.4 Para 2030, velar por la conservaci\u00f3n de los ecosistemas monta\u00f1osos, incluida su diversidad biol\u00f3gica, a fin de mejorar su capacidad de proporcionar beneficios esenciales para el desarrollo sostenible",
+                    "ods_class": 15,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_15.5",
+                    "name": "15.5 Adoptar medidas urgentes y significativas para reducir la degradaci\u00f3n de los h\u00e1bitats naturales, detener la p\u00e9rdida de la diversidad biol\u00f3gica y, para 2020, proteger las especies amenazadas y evitar su extinci\u00f3n",
+                    "ods_class": 15,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_15.7",
+                    "name": "15.7 Adoptar medidas urgentes para poner fin a la caza furtiva y el tr\u00e1fico de especies protegidas de flora y fauna y abordar la demanda y la oferta ilegales de productos silvestres",
+                    "ods_class": 15,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_15.8",
+                    "name": "15.8 Para 2020, adoptar medidas para prevenir la introducci\u00f3n de especies ex\u00f3ticas invasoras y reducir de forma significativa sus efectos en los ecosistemas terrestres y acu\u00e1ticos y controlar o erradicar las especies prioritarias",
+                    "ods_class": 15,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_15.9",
+                    "name": "15.9 Para 2020, integrar los valores de los ecosistemas y la diversidad biol\u00f3gica en la planificaci\u00f3n nacional y local, los procesos de desarrollo, las estrategias de reducci\u00f3n de la pobreza y la contabilidad",
+                    "ods_class": 15,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_15.a",
+                    "name": "15.a Movilizar y aumentar de manera significativa los recursos financieros procedentes de todas las fuentes para conservar y utilizar de forma sostenible la diversidad biol\u00f3gica y los ecosistemas",
+                    "ods_class": 15,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_15.b",
+                    "name": "15.b Movilizar un volumen apreciable de recursos procedentes de todas las fuentes y a todos los niveles para financiar la gesti\u00f3n forestal sostenible y proporcionar incentivos adecuados a los pa\u00edses en desarrollo para que promuevan dicha gesti\u00f3n, en parti",
+                    "ods_class": 15,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_15.c",
+                    "name": "15.c Aumentar el apoyo mundial a la lucha contra la caza furtiva y el tr\u00e1fico de especies protegidas, en particular aumentando la capacidad de las comunidades locales para promover oportunidades de subsistencia sostenibles",
+                    "ods_class": 15,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_15",
+            "name": 15,
+            "ods_class": 15
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_16.1",
+                    "name": "16.1 Reducir significativamente todas las formas de violencia y las correspondientes tasas de mortalidad en todo el mundo",
+                    "ods_class": 16,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_16.2",
+                    "name": "16.2 Poner fin al maltrato, la explotaci\u00f3n, la trata y todas las formas de violencia y tortura contra los ni\u00f1os",
+                    "ods_class": 16,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_16.3",
+                    "name": "16.3 Promover el estado de derecho en los planos nacional e internacional y garantizar la igualdad de acceso a la justicia para todos",
+                    "ods_class": 16,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_16.4",
+                    "name": "16.4 De aqu\u00ed a 2030, reducir significativamente las corrientes financieras y de armas il\u00edcitas, fortalecer la recuperaci\u00f3n y devoluci\u00f3n de los activos robados y luchar contra todas las formas de delincuencia organizada",
+                    "ods_class": 16,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_16.5",
+                    "name": "16.5 Reducir considerablemente la corrupci\u00f3n y el soborno en todas sus formas",
+                    "ods_class": 16,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_16.6",
+                    "name": "16.6 Crear a todos los niveles instituciones eficaces y transparentes que rindan cuentas",
+                    "ods_class": 16,
+                    "value": 6
+                },
+                {
+                    "id": "ODS_16.7",
+                    "name": "16.7 Garantizar la adopci\u00f3n en todos los niveles de decisiones inclusivas, participativas y representativas que respondan a las necesidades",
+                    "ods_class": 16,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_16.8",
+                    "name": "16.8 Ampliar y fortalecer la participaci\u00f3n de los pa\u00edses en desarrollo en las instituciones de gobernanza mundial",
+                    "ods_class": 16,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_16.9",
+                    "name": "16.9 De aqu\u00ed a 2030, proporcionar acceso a una identidad jur\u00eddica para todos, en particular mediante el registro de nacimientos",
+                    "ods_class": 16,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_16.10",
+                    "name": "16.10 Garantizar el acceso p\u00fablico a la informaci\u00f3n y proteger las libertades fundamentales, de conformidad con las leyes nacionales y los acuerdos internacionales",
+                    "ods_class": 16,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_16.a",
+                    "name": "16.a Fortalecer las instituciones nacionales pertinentes, incluso mediante la cooperaci\u00f3n internacional, para crear a todos los niveles, particularmente en los pa\u00edses en desarrollo, la capacidad de prevenir la violencia y combatir el terrorismo y la delincuencia",
+                    "ods_class": 16,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_16.b",
+                    "name": "16.b Promover y aplicar leyes y pol\u00edticas no discriminatorias en favor del desarrollo sostenible",
+                    "ods_class": 16,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_16",
+            "name": 16,
+            "ods_class": 16
+        },
+        {
+            "children": [
+                {
+                    "id": "ODS_17.1",
+                    "name": "17.1 Fortalecer la movilizaci\u00f3n de recursos internos, incluso mediante la prestaci\u00f3n de apoyo internacional a los pa\u00edses en desarrollo, con el fin de mejorar la capacidad nacional para recaudar ingresos fiscales y de otra \u00edndole",
+                    "ods_class": 17,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_17.2",
+                    "name": "17.2 Velar por que los pa\u00edses desarrollados cumplan plenamente sus compromisos en relaci\u00f3n con la asistencia oficial para el desarrollo, incluido el compromiso de numerosos pa\u00edses desarrollados de alcanzar el objetivo de destinar el 0,7% del ingreso nacional bruto a la asistencia oficial para el desarrollo de los pa\u00edses en desarrollo y entre el 0,15% y el 0,20% del ingreso nacional bruto a la asistencia oficial para el desarrollo de los pa\u00edses menos adelantados; se alienta a los proveedores de asistencia oficial para el desarrollo a que consideren la posibilidad de fijar una meta para destinar al menos el 0,20% del ingreso nacional bruto a la asistencia oficial para el desarrollo de los pa\u00edses menos adelantados",
+                    "ods_class": 17,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_17.3",
+                    "name": "17.3 Movilizar recursos financieros adicionales de m\u00faltiples fuentes para los pa\u00edses en desarrollo",
+                    "ods_class": 17,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_17.4",
+                    "name": "17.4 Ayudar a los pa\u00edses en desarrollo a lograr la sostenibilidad de la deuda a largo plazo con pol\u00edticas coordinadas orientadas a fomentar la financiaci\u00f3n, el alivio y la reestructuraci\u00f3n de la deuda, seg\u00fan proceda, y hacer frente a la deuda externa de los pa\u00edses pobres muy endeudados a fin de reducir el endeudamiento excesivo",
+                    "ods_class": 17,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_17.5",
+                    "name": "17.5 Adoptar y aplicar sistemas de promoci\u00f3n de las inversiones en favor de los pa\u00edses menos adelantados",
+                    "ods_class": 17,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_17.6",
+                    "name": "17.6 Mejorar la cooperaci\u00f3n regional e internacional Norte-Sur, Sur-Sur y triangular en materia de ciencia, tecnolog\u00eda e innovaci\u00f3n y el acceso a estas, y aumentar el intercambio de conocimientos en condiciones mutuamente convenidas, incluso mejorando la coordinaci\u00f3n entre los mecanismos existentes, en particular a nivel de las Naciones Unidas, y mediante un mecanismo mundial de facilitaci\u00f3n de la tecnolog\u00eda",
+                    "ods_class": 17,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_17.7",
+                    "name": "17.7 Promover el desarrollo de tecnolog\u00edas ecol\u00f3gicamente racionales y su transferencia, divulgaci\u00f3n y difusi\u00f3n a los pa\u00edses en desarrollo en condiciones favorables, incluso en condiciones concesionarias y preferenciales, seg\u00fan lo convenido de mutuo acuerdo",
+                    "ods_class": 17,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_17.8",
+                    "name": "17.8 Poner en pleno funcionamiento, a m\u00e1s tardar en 2017, el banco de tecnolog\u00eda y el mecanismo de apoyo a la creaci\u00f3n de capacidad en materia de ciencia, tecnolog\u00eda e innovaci\u00f3n para los pa\u00edses menos adelantados y aumentar la utilizaci\u00f3n de tecnolog\u00edas instrumentales, en particular la tecnolog\u00eda de la informaci\u00f3n y las comunicaciones",
+                    "ods_class": 17,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_17.9",
+                    "name": "17.9 Aumentar el apoyo internacional para realizar actividades de creaci\u00f3n de capacidad eficaces y espec\u00edficas en los pa\u00edses en desarrollo a fin de respaldar los planes nacionales de implementaci\u00f3n de todos los Objetivos de Desarrollo Sostenible, incluso mediante la cooperaci\u00f3n Norte-Sur, Sur-Sur y triangular",
+                    "ods_class": 17,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_17.10",
+                    "name": "17.10 Promover un sistema de comercio multilateral universal, basado en normas, abierto, no discriminatorio y equitativo en el marco de la Organizaci\u00f3n Mundial del Comercio, incluso mediante la conclusi\u00f3n de las negociaciones en el marco del Programa de Doha para el Desarrollo",
+                    "ods_class": 17,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_17.11",
+                    "name": "17.11 Aumentar significativamente las exportaciones de los pa\u00edses en desarrollo, en particular con miras a duplicar la participaci\u00f3n de los pa\u00edses menos adelantados en las exportaciones mundiales de aqu\u00ed a 2020",
+                    "ods_class": 17,
+                    "value": 3
+                },
+                {
+                    "id": "ODS_17.12",
+                    "name": "17.12 Lograr la consecuci\u00f3n oportuna del acceso a los mercados libre de derechos y contingentes de manera duradera para todos los pa\u00edses menos adelantados, conforme a las decisiones de la Organizaci\u00f3n Mundial del Comercio, incluso velando por que las normas de origen preferenciales aplicables a las importaciones de los pa\u00edses menos adelantados sean transparentes y sencillas y contribuyan a facilitar el acceso a los mercados",
+                    "ods_class": 17,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_17.13",
+                    "name": "17.13 Aumentar la estabilidad macroecon\u00f3mica mundial, incluso mediante la coordinaci\u00f3n y coherencia de las pol\u00edticas",
+                    "ods_class": 17,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_17.14",
+                    "name": "17.14 Mejorar la coherencia de las pol\u00edticas para el desarrollo sostenible",
+                    "ods_class": 17,
+                    "value": 4
+                },
+                {
+                    "id": "ODS_17.15",
+                    "name": "17.15 Respetar el margen normativo y el liderazgo de cada pa\u00eds para establecer y aplicar pol\u00edticas de erradicaci\u00f3n de la pobreza y desarrollo sostenible",
+                    "ods_class": 17,
+                    "value": 2
+                },
+                {
+                    "id": "ODS_17.16",
+                    "name": "17.16 Mejorar la Alianza Mundial para el Desarrollo Sostenible, complementada por alianzas entre m\u00faltiples interesados que movilicen e intercambien conocimientos, especializaci\u00f3n, tecnolog\u00eda y recursos financieros, a fin de apoyar el logro de los Objetivos de Desarrollo Sostenible en todos los pa\u00edses, particularmente los pa\u00edses en desarrollo",
+                    "ods_class": 17,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_17.18",
+                    "name": "17.18 De aqu\u00ed a 2020, mejorar el apoyo a la creaci\u00f3n de capacidad prestado a los pa\u00edses en desarrollo, incluidos los pa\u00edses menos adelantados y los peque\u00f1os Estados insulares en desarrollo, para aumentar significativamente la disponibilidad de datos oportunos, fiables y de gran calidad desglosados por ingresos, sexo, edad, raza, origen \u00e9tnico, estatus migratorio, discapacidad, ubicaci\u00f3n geogr\u00e1fica y otras caracter\u00edsticas pertinentes en los contextos nacionales",
+                    "ods_class": 17,
+                    "value": 1
+                },
+                {
+                    "id": "ODS_17.19",
+                    "name": "17.19 De aqu\u00ed a 2030, aprovechar las iniciativas existentes para elaborar indicadores que permitan medir los progresos en materia de desarrollo sostenible y complementen el producto interno bruto, y apoyar la creaci\u00f3n de capacidad estad\u00edstica en los pa\u00edses en desarrollo",
+                    "ods_class": 17,
+                    "value": 1
+                }
+            ],
+            "id": "ODS_17",
+            "name": 17,
+            "ods_class": 17
+        }
+    ],
+    "name": "Objetivos de Desarrollo Sustentable"
+}

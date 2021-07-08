@@ -1,0 +1,1071 @@
+<!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Transitional//EN” “http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd”>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style1.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style2.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style3.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <title>CEPAL | Visualización del Plan Nacional de Desarrollo de Paraguay</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.1.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.1.2/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#ODS">Objetivos de Desarrollo Sostenible (ODS)</a>
+      <a href="#PND">Plan Nacional de Desarrollo de Paraguay (PND)</a>
+      <a href="#relaciones">Relaciones entre ODS y PND</a>
+    </div>
+
+
+    <div class="container-fluid main">
+        <a name="myanchor" id="ODS">
+          <h1 style="padding-top: 100px;">Objetivos de Desarrollo Sostenible (ODS)</h1>
+            </a>
+              <p>Haz click en las secciones de colores del gráfico de la izquierda para conocer cómo se componen los distintos Objetivos de Desarrollo Sostenible.
+              </p>
+              <p>Para volver al nivel anterior, haz click en el centro del mismo gráfico.
+              </p>
+              <p>También puedes navegar utilizando la lista de la derecha.
+              </p>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="">
+                      <svg id="partitionSVG1" viewBox="0 0 100 100"></svg>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <br>
+                  <div id="divSelect"  class="btn btn-danger "></div>
+                  <br>
+                  <br>
+                  <div id="idTable"></div>
+                </div>
+              </div>
+
+              <a name="myanchor" id="PND">
+                <h1 style="padding-top: 100px;">Plan Nacional de Desarrollo de Paraguay (PND)</h1>
+              </a>
+              <p>Haz click en las secciones de colores del gráfico de la izquierda para conocer cómo se compone el Plan Nacional de Desarrollo de Paraguay (PND).
+              </p>
+              <p>Para volver al nivel anterior, haz click en el centro del mismo gráfico.
+              </p>
+              <p>También puedes navegar utilizando la lista de la derecha.
+              </p>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="">
+                      <svg id="partitionSVG2" viewBox="0 0 100 100"></svg>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <br>
+                  <div id="divSelect2"  class="btn btn-danger "></div>
+                  <br>
+                  <br>
+                  <div id="idTable2"></div>
+                </div>
+              </div>
+
+              <a name="myanchor" id="relaciones">
+                <h1 style="padding-top: 100px;">Relaciones entre ODS y PND</h1>
+              </a>
+              <p>El gráfico de la izquierda muestra las relaciones de los Objetivos de Desarrollo Sostenible (ODS) con el Plan Nacional de Desarrollo (PND).</p>
+              <p>Pasa el mouse sobre los distintos textos para destacar las relaciones, o haz click en ellos para mostrar la lista en la tabla de la derecha.</p>
+              <p>El color azul (<span class='block_relation_Parcial'>&#9634;</span>) indica una vinculación parcial, mientras que el color color rojo (<span class='block_relation_Total'>&#9634;</span>) indica una vinculación total.</p>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div id="bundle"></div>
+                </div>
+                <div class="col-md-6">
+                <div id="divSelect3"  class="btn btn-danger "></div>
+                <br>
+                <br>
+                <div id="idTable3"></div>
+                </div>
+              </div>
+            </div>
+    <footer class="text-center">
+      Sitio desarrollado por Ricardo Rendich
+    </footer>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script src='libs/d3.v4.min.js'></script>
+
+    <script>
+        d3version4 = d3;
+        window.d3 = null;
+
+        function sunBurstSection(fileCsv,
+          divSelect,
+          idSelect,
+          ididSelect,
+          colMetaODS,
+          colGroup,
+          colSubgroup,
+          colObjetivoEstrategico,
+          arcClass,
+          stringObjetivoEstrategico,
+          tableHeaders,
+          idSVG,
+          fileJson,
+          idTable,
+          stringTitle,
+          colLeft,
+          colRight,
+          sunburstColor){
+          d3version4.csv(fileCsv, function(error, data) {
+            var select = d3version4.select(divSelect)
+              .append("div")
+              .append("select").
+              attr("class", "btn btn-danger").
+              attr("id", idSelect);
+
+            select
+              .on("change", function(d) {
+                var v = d3version4.select(this).property("value");
+                //console.log(v)
+                moveStackToFront(v);
+                function moveStackToFront(elD) {
+                    //console.log("SI2: " + elD);
+                    svg.selectAll('.slice').filter(d => d.data.id == elD)
+                        .each(function(d) {
+                            focusOn(d)
+                            paint(d)
+                        });
+                }
+              });
+              //console.log("colGroup: " + colGroup)
+              //console.log("colSubgroup: " + colSubgroup)
+
+            var groupAndSubgroup = d3version4.nest()
+              //.key(function(d) { return d[colGroup]; })
+                .key(function(d) { return d[colGroup]; }).sortKeys(function(a,b) {
+                      A=a.split("_")
+                      B=b.split("_")
+                      subgroupA=A[1].split(".")
+                      subgroupB=B[1].split(".")
+
+
+                      return d3version4.ascending(A[0], B[0]) ||
+                      d3version4.ascending(parseInt(A[1]), parseInt(B[1])) ||
+                      d3version4.ascending(parseInt(subgroupA[1]), parseInt(subgroupB[1]));
+                    })
+                .key(function(d) { return d[colSubgroup]; }).sortKeys(function(a,b) {
+                      A=a.split("_")
+                      B=b.split("_")
+                      subgroupA=A[1].split(".")
+                      subgroupB=B[1].split(".")
+
+                      if((A[1] == "8.1" || A[1] == "8.10") || (B[1] == "8.1" || B[1] == "8.10")){
+                        console.log(A + "-" + B);
+                        console.log(subgroupA + "-" + subgroupB);
+                        console.log("---");
+                      }
+
+                      return d3version4.ascending(A[0], B[0]) ||
+                      //d3version4.ascending(parseInt(A[0]), parseInt(B[0])) ||
+                      //d3version4.ascending(parseInt(A[1]), parseInt(B[1])) ||
+                      d3version4.ascending(parseInt(subgroupA[0]), parseInt(subgroupB[0]))||
+                      d3version4.ascending(parseInt(subgroupA[1]), parseInt(subgroupB[1]));
+                    })
+              .entries(data);
+              //console.log(data);
+
+/*
+            var groupAndSubgroup = d3version4.nest()
+              .key(function(d) { return d[colGroup]; })
+                .key(function(d) { return d[colSubgroup]; })
+              .entries(data);
+                    */
+
+            select
+              .selectAll('optgroup')
+                .data(groupAndSubgroup)
+                .enter()
+              .append('optgroup')
+                 .attr('value',function (d) { return d.key.replace("_", " ") })
+                 .attr('label',function (d) { return d.key.replace("_", " ")})
+              .selectAll('option')
+                .data(function (d) { return d.values })
+                .enter()
+              .append('option')
+                .attr('value',function (d) { return d.key })
+              .text(function (d) {
+                max_string = 80; //length of each option item in select
+                val = d.values[0][colMetaODS]
+                   if(val.length > max_string)
+                       return val.substring(0,max_string)+'...';
+                   else
+                       return val;
+               });
+
+            select
+              .insert("option",":first-child")
+              .attr('selected', 'selected')
+              .attr('value', 0)
+              .text('Filtrar');
+
+         }); // d3version4.csv("data/my_input1.csv", function(error, data) {
+
+          ///////////////////
+          var tabulate = function (data,columns) {
+              var table = d3version4.select(idTable)
+              var thead = table.append('thead')
+              var tbody = table.append('tbody')
+
+                thead.append('tr')
+                  .selectAll('th')
+                    .data(columns)
+                    .enter()
+                  .append('th')
+                    .text(function (d,i) {
+                      if(i==colObjetivoEstrategico)
+                      {return stringObjetivoEstrategico;}
+                      return d;
+                    })
+
+                var rows = tbody.selectAll('tr')
+                    .data(data)
+                    .enter()
+                  .append('tr').attr('class', function (d) {
+                    return d[colGroup] +" "+d[colSubgroup];
+                   })
+                     .each(function (d) {
+                        d3version4.select(this).style("visibility", "collapse");
+                    });
+
+                var cells = rows.selectAll('td')
+                    .data(function(row, row_index) {
+                        return columns.map(function (column, column_index) {
+                            return { column: column, value: row[column] };
+                      })
+                  })
+                  .enter()
+                .append('td')
+                    .text(function (d, i) {if (i != 0 && i != 3) return d.value; })
+              .each(function(d, i) {
+                if (i == colLeft) {
+                  var imgData = [];
+                  imgData.push(d.value);
+                  theImage="img/ods"+d.value;
+
+                  d3version4.select(this).selectAll("img")
+                    .data(imgData)
+                    .enter()
+                    .append("img")
+                    .attr("src", theImage+".jpg")
+                    .attr("height", "110px")
+                    .attr("width", "110px");
+                } else if(i == colRight){
+                    var imgData = [];
+                    imgData.push(d.value);
+                    theImage="img/"+d.value;
+
+                    d3version4.select(this).selectAll("img")
+                      .data(imgData)
+                      .enter()
+                      .append("img")
+                      .attr("src", theImage+".png")
+                      .attr("height", "110px")
+                      .attr("width", "110px");
+                    }
+                });
+                return table;
+              }
+
+          d3version4.csv(fileCsv, function(error, data) {
+            const columns = tableHeaders;
+            tabulate(data,columns);
+          });
+        ////
+        /************************************************************************************/
+
+                const width = window.innerWidth,
+                    height = window.innerHeight,
+                    maxRadius = (Math.min(width, height) / 2) - 5;
+
+                const formatNumber = d3version4.format(',d');
+
+                const x = d3version4.scaleLinear()
+                    .range([0, 2 * Math.PI])
+                    .clamp(true);
+
+                const y = d3version4.scaleSqrt()
+                    .range([maxRadius*.1, maxRadius]);
+
+
+                const partition = d3version4.partition();
+
+                const arc = d3version4.arc()
+                    .startAngle(d => x(d.x0))
+                    .endAngle(d => x(d.x1))
+                    .innerRadius(d => Math.max(0, y(d.y0)))
+                    .outerRadius(d => Math.max(0, y(d.y1)));
+
+                const middleArcLine = d => {
+                    const halfPi = Math.PI/2;
+                    const angles = [x(d.x0) - halfPi, x(d.x1) - halfPi];
+                    const r = Math.max(0, (y(d.y0) + y(d.y1)) / 2);
+
+                    const middleAngle = (angles[1] + angles[0]) / 2;
+                    const invertDirection = middleAngle > 0 && middleAngle < Math.PI; // On lower quadrants write text ccw
+                    if (invertDirection) { angles.reverse(); }
+
+                    const path = d3version4.path();
+                    path.arc(0, 0, r, angles[0], angles[1], invertDirection);
+                    return path.toString();
+                };
+
+                const textFits = d => {
+                    const CHAR_SPACE = 6;
+                    const deltaAngle = x(d.x1) - x(d.x0);
+                    const r = Math.max(0, (y(d.y0) + y(d.y1)) / 2);
+                    const perimeter = r * deltaAngle;
+                    return d.data.name.length * CHAR_SPACE < perimeter;
+                };
+
+                const svg = d3version4.select(idSVG).append('svg')
+                    .style('width', '100%')
+                    .style('height', '100%')
+                    .attr('viewBox', `${-width / 3} ${-height / 3} ${2/3*width} ${2/3*height}`)
+                    .on('click', () => focusOn()); // Reset zoom on canvas click
+
+                d3version4.json(fileJson, (error, root) => {
+                    if (error) throw error;
+
+                    root = d3version4.hierarchy(root);
+
+                    root.sum(d => d.value);
+
+                    const slice = svg.selectAll('g.slice')
+                        .data(partition(root).descendants());
+
+                    slice.exit().remove();
+
+                    const newSlice = slice.enter()
+                        .append('g').attr('class', 'slice')
+                        .on('click', d => {
+                            d3version4.event.stopPropagation();
+                            if(d.data.id != d3version4.select(ididSelect).value){
+                              d3version4.select(ididSelect).node().value = d.data.id;
+                              if(!d3version4.select(ididSelect).node().value)
+                              {d3version4.select(ididSelect).node().value = 0;}
+                              paint(d);
+                            }
+                            focusOn(d);
+                        });
+
+                    newSlice.append('title')
+                        .text(d => (stringTitle == "Metas ODS ")?stringTitle + d.data.name : "Objetivos " + d.data.name.replace("_", " ") );
+
+
+                    newSlice.append('path')
+                        .attr('class', 'main-arc')
+                        .style('fill', function(d){
+                          val = d.data[arcClass];
+                          return "#"+sunburstColor(val); })
+                        .attr('d', arc);
+
+                    newSlice.append('path')
+                        .attr('class', 'hidden-arc')
+                        .attr('id', (_, i) => `hiddenArc${i}`)
+                        .attr('d', middleArcLine);
+
+                    const text = newSlice.append('text')
+                        .attr('display', d => textFits(d) ? null : 'none');
+
+                    // Add contour
+                    text.append('textPath')
+                        .attr('startOffset','50%')
+                        .attr('xlink:href', (_, i) => `#hiddenArc${i}` )
+                        .text(d => (stringTitle == "Metas ODS ")? d.data.name : d.data.name.replace("_", " ") )
+                        .style('fill', 'none')
+                        .style('stroke', '#fff')
+                        .style('stroke-width', 5)
+                        .style('stroke-linejoin', 'round');
+
+                    text.append('textPath')
+                        .attr('startOffset','50%')
+                        .attr('xlink:href', (_, i) => `#hiddenArc${i}` )
+                        .text(d => (stringTitle == "Metas ODS ")? d.data.name : d.data.name.replace("_", " ") );
+                });
+
+                function paint(d){
+                  const tds = d3version4.selectAll("td")
+                    .each(function(x, y) {
+                      d3version4.select(this).style("background-color", this.innerHTML == d.data.id ? "yellow" : null);
+                    })
+
+                    var table = d3version4.select(idTable);
+                    var tbody = table.select('tbody');
+                    var rows = tbody.selectAll('tr')
+                      .each(function (d) {
+                        d3version4.select(this).style("visibility", function() {
+                          return (true) ? "visible" : "hidden";
+                        });
+                      });
+
+                      var rows = tbody.selectAll('tr')
+                        .each(function (r) {
+                          d3version4.select(this).style("visibility", function() {
+                              return (r[colSubgroup] == d.data.id || r[colGroup] == d.data.id) ? "table-cell" : "collapse";
+                          });
+                      });
+                }
+
+                function focusOn(d = { x0: 0, x1: 1, y0: 0, y1: 1 }) {
+                    // Reset to top-level if no data point specified
+                    const transition = svg.transition()
+                        .duration(750)
+                        .tween('scale', () => {
+                            const xd = d3version4.interpolate(x.domain(), [d.x0, d.x1]),
+                                yd = d3version4.interpolate(y.domain(), [d.y0, 1]);
+                            return t => { x.domain(xd(t)); y.domain(yd(t)); };
+                        });
+
+                    transition.selectAll('path.main-arc')
+                        .attrTween('d', d => () => arc(d));
+
+                    transition.selectAll('path.hidden-arc')
+                        .attrTween('d', d => () => middleArcLine(d));
+
+                    transition.selectAll('text')
+                        .attrTween('display', d => () => textFits(d) ? null : 'none');
+                }
+
+                d3version4.select(ididSelect).on("change", function() {
+                  var v = this.value;
+                  //console.log(v)
+                  moveStackToFront(v);
+                  function moveStackToFront(elD) {
+                      svg.selectAll('.slice').filter(d => d.id == elD)
+                        .each(function(d) {
+                            focusOn(d);
+                            paint(d);
+                        });
+                  }
+                }) // d3version4.select(ididSelect).on("change", function() {
+        }
+        ////////
+        fileCsv = "data/my_input1.csv";
+        divSelect = "#divSelect";
+        idSelect = "idSelect";
+        colMetaODS = "Meta ODS";
+        ididSelect = "#"+idSelect;
+        colObjetive = "Meta ODS";
+
+        colGroup = "ODS_grupo";
+        colSubgroup = "ODS_subgrupo";
+        arcClass = "ods_class";
+
+        colObjetivoEstrategico = 3;
+        stringObjetivoEstrategico = "Objetivo Estratégico";
+        tableHeaders = ["ODS","Meta ODS","Objetivo PND", "PND_grupo"];
+        idSVG = '#partitionSVG1';
+        fileJson = 'data/my_input1.json';
+        fileJson = 'data/my_input1_clean.json';
+        idTable = '#idTable';
+        stringTitle = "Metas ODS ";
+        colLeft = 0;
+        colRight = 3;
+        var sunburstColor = d3version4.scaleOrdinal().domain(d3version4.range(17))
+          .range([
+          "DC022F", "D4972D", "3F9336", "B80B24", "E72823", "26B2E0", "F9B912", "900B35", "EC5324", "D30055",
+          "F48B21", "B07B22", "336E36", "1D83CA", "4BB037", "13558D","123858", "FFFFFF",
+        ]);
+        ////////
+
+        sunBurstSection(fileCsv,
+          divSelect,
+          idSelect,
+          ididSelect,
+          colMetaODS,
+          colGroup,
+          colSubgroup,
+          colObjetivoEstrategico,
+          arcClass,
+          stringObjetivoEstrategico,
+          tableHeaders,
+          idSVG,
+          fileJson,
+          idTable,
+          stringTitle,
+          colLeft,
+          colRight,
+          sunburstColor);
+
+
+
+        colObjetive = "Meta ODS";
+        colGroup = "PND_grupo";
+        colSubgroup = "PND_subgrupo";
+        arcClass = "pnd_class";
+        stringObjetivoEstrategico = "Objetivo Estratégico";
+        fileJson = 'data/my_input2_clean.json';
+        stringTitle = "Objetivos PND ";
+        tableHeaders = ["PND_grupo","Objetivo PND","Meta ODS", "ODS"]
+        fileCsv = "data/my_input2.csv";
+        fileCsv = "data/my_input2.csv";
+        colObjetivoEstrategico = 0;
+        colLeft = 3;
+        colRight = 0;
+        divSelect = "#divSelect2";
+        idSelect = "idSelect2";
+
+        colMetaODS = "Objetivo PND";
+        ididSelect = "#"+idSelect;
+        idSVG = '#partitionSVG2';
+        idTable = '#idTable2';
+        sunburstColor = d3version4.scaleOrdinal().domain(d3version4.range(17))
+                .range(["FFFFFF",
+                "F2B729","F1B629", "F2B628", "F2B729",
+                "F1B728", "1A3F7A", "1A3F79", "50872F",
+                "F2B729", "1A3F79", "1A3F79", "508730",
+                "F1B628", "E65631", "E55530", "508730"
+              ]);
+
+
+        sunBurstSection(fileCsv,
+          divSelect,
+          idSelect,
+          ididSelect,
+          colMetaODS,
+          colGroup,
+          colSubgroup,
+          colObjetivoEstrategico,
+          arcClass,
+          stringObjetivoEstrategico,
+          tableHeaders,
+          idSVG,
+          fileJson,
+          idTable,
+          stringTitle,
+          colLeft,
+          colRight,
+          sunburstColor);
+        
+
+
+      </script>
+
+
+      <script type="text/javascript" src="libs/d3.v3.min.js"></script>
+<!--
+  -->
+      <script>
+        d3version3 = d3
+        window.d3 = null
+        ////////
+        function HierarchicalEdgeBundleSection(){
+            var tabulate3 = function (data,columns) {
+                var table = d3version3.select('#idTable3')
+                var thead = table.append('thead')
+                var tbody = table.append('tbody')
+
+                thead.append('tr')
+                  .selectAll('th')
+                    .data(columns)
+                    .enter()
+                  .append('th')
+                    .text(function (d) { return d })
+
+                var rows = tbody.selectAll('tr')
+                    .data(data)
+                    .enter()
+                  .append('tr').attr('class', function (d) {
+                      return d["PND_subgrupo"] +" "+d["ODS_subgrupo"]
+                   })
+                  .each(function (d) {
+                        d3version3.select(this).style("visibility", "collapse");
+                        v = d.Vinculación;
+                        d3version3.select(this).attr("class", "background_relation_"+v)
+
+                    });
+
+
+                  var cells = rows.selectAll('td')
+                      .data(function(row, row_index) {
+                          return columns.map(function (column, column_index) {
+                              return { column: column, value: row[column] }
+                        })
+                    })
+                    .enter()
+                  .append('td')
+                    .text(function (d) { return d.value })
+
+                return table;
+              } // var tabulate3 = function (data,columns) {
+
+              d3version3.csv("data/my_input3.csv", function(error, data) {
+                const columns = ["Meta ODS",
+                  "Objetivo PND",
+                  "Vinculación",
+                ]
+                var select = d3version3.select("#divSelect3")
+                  .append("div")
+                  .append("select").
+                  attr("class", "btn btn-danger").
+                  attr("id", "idSelect3")
+
+                select
+                  .on("change", function(d) {
+                    var v = d3version3.select(this).property("value");
+                    //console.log(v)
+                    moveStackToFront(v);
+                    function moveStackToFront(elD) {
+                        //console.log("SI2: " + elD);
+                        clickfunctionValue(elD)
+                    } // END function moveStackToFront(elD) {
+
+                  });
+                var groupAndSubgroup = d3version3.nest()
+                  .key(function(d) { return d["ODS_grupo"]; }).sortKeys(function(a,b) {
+                      A=a.split("_");
+                      B=b.split("_");
+                      return d3version3.ascending(A[0], B[0]) ||
+                      d3version3.ascending(parseFloat(A[1]), parseFloat(B[1])) ||
+                      d3version3.ascending(parseFloat(A[2]), parseFloat(B[2])) ||
+                      d3version3.ascending(A2.key,B2.key);
+                  })
+                  .key(function(d) { return d["ODS_subgrupo"]; }).sortKeys(function(a,b) {
+                      A=a.split("_")
+                      B=b.split("_")
+                      return d3version3.ascending(A[0], B[0]) ||
+                      d3version3.ascending(parseFloat(A[1]), parseFloat(B[1])) ||
+                      d3version3.ascending(parseFloat(A[2]), parseFloat(B[2]));
+                    })
+                    .entries(data);
+
+                var groupAndSubgroup2 = d3version3.nest()
+                  .key(function(d) { return d["PND_grupo"]; }).sortKeys(function(a,b) {
+                      A=a.split("_");
+                      B=b.split("_");
+                      return d3version3.ascending(A[0], B[0]) ||
+                      d3version3.ascending(parseFloat(A[1]), parseFloat(B[1])) ||
+                      d3version3.ascending(parseFloat(A[2]), parseFloat(B[2])) ||
+                      d3version3.ascending(parseFloat(A[3]), parseFloat(B[3])) ||
+                      d3version3.ascending(A2.key,B2.key);
+                  })
+                  .key(function(d) { return d["PND_subgrupo"]; }).sortKeys(function(a,b) {
+                      A=a.split("_");
+                      B=b.split("_");
+                      return d3version3.ascending(A[0], B[0]) ||
+                      d3version3.ascending(parseFloat(A[1]), parseFloat(B[1])) ||
+                      d3version3.ascending(parseFloat(A[2]), parseFloat(B[2]))||
+                      d3version3.ascending(parseFloat(A[3]), parseFloat(B[3]))
+                  })
+                  .entries(data);
+                  groupAndSubgroup2.forEach(function(e) { groupAndSubgroup.push(e); });
+
+                groupAndSubgroup = groupAndSubgroup.sort(function(a,b) {
+                    A=a.key.split("_");
+                    B=b.key.split("_");
+
+                    return d3version3.ascending(A[0], B[0]) ||
+                    d3version3.ascending(parseFloat(A[1]), parseFloat(B[1])) ||
+                    d3version3.ascending(parseFloat(A[2]), parseFloat(B[2])) ||
+                    d3version3.ascending(parseFloat(A[3]), parseFloat(B[3])) ||
+                    d3version3.ascending(
+                      parseFloat(a.values[0].values[0].split("_")[3]),
+                      parseFloat(b.values[0].values[0].split("_")[3])
+                    );
+                });
+
+                select
+                  .selectAll('optgroup')
+                  .data(groupAndSubgroup)
+                  .enter()
+                  .append('optgroup')
+                  .attr('value',function (d) { return d.key })
+                  .attr('label',function (d) {
+                     return d.key.replace("_", " ").replace("_", " ")})
+                  .selectAll('option')
+                  .data(function (d) { return d.values })
+                  .enter()
+                  .append('option')
+                  .attr('value',function (d) { return d.key })
+                  .text(function (d, i) {
+                      str =  d.key
+                      if(str.startsWith("ODS")){
+                        val = d.values[0]["Meta ODS"];
+                      }else if(str.startsWith("PND")){
+                        val = d.values[0]["Objetivo PND"];
+                      }
+                      else{
+                        console.log("ERROR");
+                      }
+                      max_string = 80; //length of each option item in select
+                      if(val.length > max_string)
+                          return val.substring(0,max_string)+'...';
+                      else
+                          return val;
+                });
+
+                select
+                .insert("option",":first-child")
+                .attr('selected', 'selected')
+                .attr('value', 0)
+                .text('Filtrar');
+                tabulate3(data,columns)
+              });
+
+            /*
+            Basado en
+            https://jsfiddle.net/Twisty/192m0uyc/2/
+            */
+            var count_aux = 10;
+
+            var w = 740,
+            h = 700,
+            rx = w / 2,
+            ry = h / 2,
+            m0,
+            rotate = 0
+            pi = Math.PI;
+
+            var splines = [];
+
+            var cluster = d3version3.layout.cluster()
+            .size([360, ry - 180])
+            .sort(function(a, b) {
+              A = a.key.split("_");
+              B = b.key.split("_");
+              return d3version3.ascending( A[0],B[0] ) ||
+                  d3version3.ascending(parseInt(A[1]), parseInt(B[1])) ||
+                  d3version3.ascending(parseInt(A[2]), parseInt(B[2])) ||
+                  d3version3.ascending((A[2]), (B[2])) ||
+                  d3version3.ascending(parseInt(A[3]), parseInt(B[3])) ||
+                  d3version3.ascending((A[3]), (B[3]));
+            });
+
+            var bundle = d3version3.layout.bundle();
+
+            var line = d3version3.svg.line.radial()
+              .interpolate("bundle")
+              .tension(.85)
+              .radius(function(d) { return d.y; })
+              .angle(function(d) { return d.x / 180 * Math.PI; });
+
+            var div = d3version3.select("#bundle")
+              .style("width", w + "px")
+              .style("height", w + "px")
+              .style("position", "absolute");
+
+            var svg = div.append("svg:svg")
+              .attr("width", w)
+              .attr("height", w)
+              .append("svg:g")
+              .attr("transform", "translate(" + rx + "," + ry + ")");
+
+            svg.append("svg:path")
+              .attr("class", "arc")
+              .attr("d", d3version3.svg.arc().outerRadius(ry - 180).innerRadius(0).startAngle(0).endAngle(2 * Math.PI))
+              .on("mousedown", mousedown);
+
+            d3version3.json("data/my_input3.json", function(classes) {
+                var nodes = cluster.nodes(packages.root(classes)),
+                  links = packages.imports(nodes),
+                  splines = bundle(links);
+
+                var path = svg.selectAll("path.link")
+                  .data(links)
+                  .enter().append("svg:path")
+                  .attr("class", function(d) {
+                    return "link source-" + d.source.key + " target-" + d.target.key + " relation_"+d.relation;
+                  })
+                  .attr("d", function(d, i) { return line(splines[i]); });
+
+                var groupData = svg.selectAll("g.group")
+                    .data(nodes.filter(function(d) {
+                        var root_list = [];
+                        for (var i = 1; i <= 17; i++) {
+                          root_list.push("ODS_"+i);
+                        }
+                        for (var i = 1; i <= 4; i++) {
+                          for (var j = 1; j <= 4; j++) {
+                              root_list.push("PND_"+i+"_"+j);
+                          }
+                        }
+                        return root_list.includes(d.key) && d.children;
+                  }))
+                  .enter().append("group")
+                  .attr("class", "group");
+
+                var groupArc = d3version3.svg.arc()
+                  .innerRadius(ry - 177)
+                  .outerRadius(ry - 157)
+                  .startAngle(function(d) { return (findStartAngle(d.__data__.children) - 2) * pi / 180;})
+                  .endAngle(function(d) { return (findEndAngle(d.__data__.children) + 2) * pi / 180});
+
+                var nODS = 17;
+                var nPND = 4*4;
+
+                var colorScaleArc = function(d) {
+                  color_hash = {
+                    "ODS_1":"DC022F",
+                    "ODS_2":"D4972D",
+                    "ODS_3":"3F9336",
+                    "ODS_4":"B80B24",
+                    "ODS_5":"E72823",
+                    "ODS_6":"26B2E0",
+                    "ODS_7":"F9B912",
+                    "ODS_8":"900B35",
+                    "ODS_9":"EC5324",
+                    "ODS_10":"D30055",
+                    "ODS_11":"F48B21",
+                    "ODS_12":"B07B22",
+                    "ODS_13":"336E36",
+                    "ODS_14":"1D83CA",
+                    "ODS_15":"4BB037",
+                    "ODS_16":"13558D",
+                    "ODS_17":"123858",
+
+                    "PND_1_1":"F2B729",
+                    "PND_1_2":"F1B629",
+                    "PND_1_3":"F2B628",
+                    "PND_1_4":"F2B729",
+
+                    "PND_2_1":"F1B728",
+                    "PND_2_2":"1A3F7A",
+                    "PND_2_3":"1A3F79",
+                    "PND_2_4":"50872F",
+
+                    "PND_3_1":"F2B729",
+                    "PND_3_2":"1A3F79",
+                    "PND_3_3":"1A3F79",
+                    "PND_3_4":"508730",
+
+                    "PND_4_1":"F1B628",
+                    "PND_4_2":"E65631",
+                    "PND_4_3":"E55530",
+                    "PND_4_4":"508730",
+                  };
+                  c = color_hash[d];
+
+                  if(c){return c;}
+                  return "00FF00";
+                }
+
+                svg.selectAll("g.arc")
+                .data(groupData[0])
+                .enter().append("svg:path")
+                .attr("d", groupArc)
+                .attr("class", "groupArc")
+                .call(text => text.append("title").text( (d,i) =>
+                  {
+                    N = d.__data__.children.length;
+                    msg = `${d.__data__.name.replace("_", " ").replace("_", " ")} :
+                    Se compone de ${N} elemento`
+                    if(N>1)
+                      {msg+="s"}
+                    return  msg;
+                  }
+                ))
+                .style("fill", function(d, i) {
+                    return "#"+colorScaleArc(d.__data__.name);
+                })
+                .style("fill-opacity", 1);
+
+                svg.selectAll("g.node")
+                  .data(nodes.filter(function(n) { return !n.children; }))
+                .enter().append("svg:g")
+                  .attr("class", "node")
+                  .attr("id", function(d) { return "node-" + d.key; })
+                  .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
+                .append("svg:text")
+                  .attr("dx", function(d) { return d.x < 180 ? 25 : -25; })
+                  .attr("dy", ".31em")
+                  .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
+                  .attr("transform", function(d) { return d.x < 180 ? null : "rotate(180)"; })
+                  .text(function(d) { return d.key.replace(/_/g, ' '); })
+                  .on("mouseover", mouseover)
+                  .on("mouseout", mouseout)
+                  .on("click", clickfunction)
+                  .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");});
+            });
+
+            d3version3.select(window)
+              .on("mousemove", mousemove)
+              .on("mouseup", mouseup);
+
+            function mouse(e) {
+              return [e.pageX - rx, e.pageY - ry];
+            }
+            function clickfunction (e){
+              str =  e.key;
+              clickfunctionValue(str);
+              d3version3.select("#idSelect3").node().value = str;
+            }
+
+            function clickfunctionValue (str){
+                var table = d3version3.select('#idTable3')
+                var tbody = table.select('tbody');
+                var rows = tbody.selectAll('tr')
+                .each(function (d) {
+                    d3version3.select(this).style("visibility", function() {
+                        return (true) ? "visible" : "hidden";
+                    });
+                });
+                var rows = tbody.selectAll('tr')
+                .each(function (r) {
+                    d3version3.select(this).style("visibility", function() {
+                        return (r["ODS_subgrupo"] == str || r["PND_subgrupo"] == str) ? "table-cell" : "collapse";
+                    });
+                });
+                rows.sort(function(a, b) {
+                    return d3version3.ascending(a[val], b[val]);
+                });
+            }
+            function mousedown() {
+              m0 = mouse(d3version3.event);
+              d3version3.event.preventDefault();
+            }
+
+            function mousemove() {
+              if (m0) {
+                var m1 = mouse(d3version3.event),
+                dm = Math.atan2(cross(m0, m1), dot(m0, m1)) * 180 / Math.PI;
+                div.style("-webkit-transform", "translate3d(0," + (ry - rx) + "px,0)rotate3d(0,0,0," + dm + "deg)translate3d(0," + (rx - ry) + "px,0)");
+              }
+            }
+
+            function mouseup() {
+              if (m0) {
+                var m1 = mouse(d3version3.event),
+                    dm = Math.atan2(cross(m0, m1), dot(m0, m1)) * 180 / Math.PI;
+
+                rotate += dm;
+                if (rotate > 360) rotate -= 360;
+                else if (rotate < 0) rotate += 360;
+                m0 = null;
+
+                div.style("-webkit-transform", "rotate3d(0,0,0,0deg)");
+
+                svg.attr("transform", "translate(" + rx + "," + ry + ")rotate(" + rotate + ")")
+                  .selectAll("g.node text")
+                    .attr("dx", function(d) { return (d.x + rotate) % 360 < 180 ? 25 : -25; })
+                    .attr("text-anchor", function(d) { return (d.x + rotate) % 360 < 180 ? "start" : "end"; })
+                    .attr("transform", function(d) { return (d.x + rotate) % 360 < 180 ? null : "rotate(180)"; });
+              }
+            }
+
+            var tooltip = d3version3.select("body")
+              .append("div")
+              .attr("class", "tooltip")
+              .style("position", "absolute")
+              .style("z-index", "10")
+              .style("visibility", "hidden");
+
+            function mouseover(d) {
+              svg.selectAll("path.link.target-" + d.key)
+                .classed("target", true)
+                .each(updateNodes("source", true));
+
+              svg.selectAll("path.link.source-" + d.key)
+                .classed("source", true)
+                .each(updateNodes("target", true));
+
+                // TOOLTIP
+              if(false){
+                var msg = "<ul>";
+                var node = (svg.selectAll("path.link.source-" + d.key)).filter(function(d2){
+                    msa = d3version3.select(this).attr('class');
+                    msa.split(" ").forEach(function(a) {
+                      class_name = "target-";
+                      if(a != "link" && (a.includes(class_name)))
+                      {msg += "<li>"+a.substring(class_name.length) +"</li>";}
+                    }); // forEach
+                  }); // filter
+
+                var node = (svg.selectAll("path.link.target-" + d.key)).filter(function(d2){
+                    msa = d3version3.select(this).attr('class');
+                    msa.split(" ").forEach(function(a) {
+                      class_name = "source-";
+                      if(a != "link" && (a.includes(class_name)))
+                        {msg += "<li>"+a.substring(class_name.length) +"</li>";}
+                    });// forEach
+                  });//filter
+
+                  N = (svg.selectAll("path.link.target-" + d.key)).size() + (svg.selectAll("path.link.source-" + d.key)).size();
+                  if(N==1){
+                    tooltip.html( d.key+' tiene <b>'+1+'</b> conexión'+ msg+"</li>");
+                  }else{
+                    tooltip.html( d.key+' tiene <b>'+N+'</b> conexiones'+ msg+"</li>" );
+                  }
+                  return tooltip.style("visibility", "visible");
+              }
+            }
+
+            function mouseout(d) {
+              svg.selectAll("path.link.source-" + d.key)
+                .classed("source", false)
+                .each(updateNodes("target", false));
+
+              svg.selectAll("path.link.target-" + d.key)
+                .classed("target", false)
+                .each(updateNodes("source", false));
+              return tooltip.style("visibility", "hidden");
+            }
+
+            function updateNodes(name, value) {
+              return function(d) {
+                if (value) this.parentNode.appendChild(this);
+                svg.select("#node-" + d[name].key).classed(name, value);
+                svg.select("#node-" + d[name].key).classed("relation_"+d["relation"], value);
+              };
+            }
+
+            function cross(a, b) {
+              return a[0] * b[1] - a[1] * b[0];
+            }
+
+            function dot(a, b) {
+              return a[0] * b[0] + a[1] * b[1];
+            }
+
+            function findStartAngle(children) {
+              var min = children[0].x;
+              children.forEach(function(d) {
+               if (d.x < min)
+                   min = d.x;
+              });
+              return min;
+            }
+
+            function findEndAngle(children) {
+              var max = children[0].x;
+              children.forEach(function(d) {
+               if (d.x > max)
+                   max = d.x;
+              });
+              return max;
+            }
+        } // function f3(){
+        HierarchicalEdgeBundleSection();
+      </script>
+<!--
+-->
+      <script type="text/javascript" src="libs/packages.js"></script>
+      <script src="js/jquery-3.5.1.slim.min.js"></script>
+  </body>
+</html>

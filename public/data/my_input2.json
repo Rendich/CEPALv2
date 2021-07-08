@@ -1,0 +1,1815 @@
+{
+    "name": "Plan Nacional de Desarrollo de Paraguay (PND)",
+    "children": [
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.1 Garantizar a toda la población el derecho universal a la identidad. ",
+                    "id": "PND_1.1.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.2. Reducir la pobreza en todas sus formas.",
+                    "id": "PND_1.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.2. Reducir la pobreza en todas sus formas.",
+                    "id": "PND_1.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.2. Reducir la pobreza en todas sus formas.",
+                    "id": "PND_1.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.2. Reducir la pobreza en todas sus formas.",
+                    "id": "PND_1.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.2. Reducir la pobreza en todas sus formas.",
+                    "id": "PND_1.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.2. Reducir la pobreza en todas sus formas.",
+                    "id": "PND_1.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.3. Disminuir las condiciones de desigualdad de los diferentes estratos poblacionales.",
+                    "id": "PND_1.1.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.3. Disminuir las condiciones de desigualdad de los diferentes estratos poblacionales.",
+                    "id": "PND_1.1.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.4. Aumentar la cobertura y la retención del sistema educativo.",
+                    "id": "PND_1.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.4. Aumentar la cobertura y la retención del sistema educativo.",
+                    "id": "PND_1.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.4. Aumentar la cobertura y la retención del sistema educativo.",
+                    "id": "PND_1.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.4. Aumentar la cobertura y la retención del sistema educativo.",
+                    "id": "PND_1.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.4. Aumentar la cobertura y la retención del sistema educativo.",
+                    "id": "PND_1.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.4. Aumentar la cobertura y la retención del sistema educativo.",
+                    "id": "PND_1.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.4. Aumentar la cobertura y la retención del sistema educativo.",
+                    "id": "PND_1.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.5 Aumentar la retención en el sistema de educación escolar básica en la población indígena.",
+                    "id": "PND_1.1.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.5 Aumentar la retención en el sistema de educación escolar básica en la población indígena.",
+                    "id": "PND_1.1.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.5 Aumentar la retención en el sistema de educación escolar básica en la población indígena.",
+                    "id": "PND_1.1.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.5 Aumentar la retención en el sistema de educación escolar básica en la población indígena.",
+                    "id": "PND_1.1.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.6 Disminuir el analfabetismo en la población indígena.",
+                    "id": "PND_1.1.6",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.6 Disminuir el analfabetismo en la población indígena.",
+                    "id": "PND_1.1.6",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.7 Reducir la desnutrición crónica infantil.",
+                    "id": "PND_1.1.7",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.7 Reducir la desnutrición crónica infantil.",
+                    "id": "PND_1.1.7",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.7 Reducir la desnutrición crónica infantil.",
+                    "id": "PND_1.1.7",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.7 Reducir la desnutrición crónica infantil.",
+                    "id": "PND_1.1.7",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.8 Reducir el SIDA, la tuberculosis, las enfermedades tropicales desatendidas y la hepatitis. ",
+                    "id": "PND_1.1.8",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.9 Reducir la mortalidad materna con énfasis en grupos vulnerables (población indígena, adolescentes).",
+                    "id": "PND_1.1.9",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.9 Reducir la mortalidad materna con énfasis en grupos vulnerables (población indígena, adolescentes).",
+                    "id": "PND_1.1.9",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.10 Reducir la mortalidad neonatal y de niños menores de 5 años.",
+                    "id": "PND_1.1.10",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.10 Reducir la mortalidad neonatal y de niños menores de 5 años.",
+                    "id": "PND_1.1.10",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.11. Disminuir el consumo de sustancias adictivas.",
+                    "id": "PND_1.1.11",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.12 Aumentar el acceso a servicios de atención y desarrollo en la primera infancia con un enfoque integral",
+                    "id": "PND_1.1.12",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.12 Aumentar el acceso a servicios de atención y desarrollo en la primera infancia con un enfoque integral",
+                    "id": "PND_1.1.12",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.13 Proteger a los niños y adolecentes ante amenazas de vulneracion de sus derechos",
+                    "id": "PND_1.1.13",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.13 Proteger a los niños y adolecentes ante amenazas de vulneracion de sus derechos",
+                    "id": "PND_1.1.13",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.13 Proteger a los niños y adolecentes ante amenazas de vulneracion de sus derechos",
+                    "id": "PND_1.1.13",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.13 Proteger a los niños y adolecentes ante amenazas de vulneracion de sus derechos",
+                    "id": "PND_1.1.13",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.13 Proteger a los niños y adolecentes ante amenazas de vulneracion de sus derechos",
+                    "id": "PND_1.1.13",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.13 Proteger a los niños y adolecentes ante amenazas de vulneracion de sus derechos",
+                    "id": "PND_1.1.13",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.14 Avanzar hacia la igualdad real y efectiva, eliminando la discriminación hacia las mujeres.",
+                    "id": "PND_1.1.14",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.14 Avanzar hacia la igualdad real y efectiva, eliminando la discriminación hacia las mujeres.",
+                    "id": "PND_1.1.14",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.14 Avanzar hacia la igualdad real y efectiva, eliminando la discriminación hacia las mujeres.",
+                    "id": "PND_1.1.14",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.14 Avanzar hacia la igualdad real y efectiva, eliminando la discriminación hacia las mujeres.",
+                    "id": "PND_1.1.14",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.14 Avanzar hacia la igualdad real y efectiva, eliminando la discriminación hacia las mujeres.",
+                    "id": "PND_1.1.14",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.14 Avanzar hacia la igualdad real y efectiva, eliminando la discriminación hacia las mujeres.",
+                    "id": "PND_1.1.14",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.14 Avanzar hacia la igualdad real y efectiva, eliminando la discriminación hacia las mujeres.",
+                    "id": "PND_1.1.14",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.14 Avanzar hacia la igualdad real y efectiva, eliminando la discriminación hacia las mujeres.",
+                    "id": "PND_1.1.14",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.14 Avanzar hacia la igualdad real y efectiva, eliminando la discriminación hacia las mujeres.",
+                    "id": "PND_1.1.14",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.14 Avanzar hacia la igualdad real y efectiva, eliminando la discriminación hacia las mujeres.",
+                    "id": "PND_1.1.14",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.14 Avanzar hacia la igualdad real y efectiva, eliminando la discriminación hacia las mujeres.",
+                    "id": "PND_1.1.14",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.15. Avanzar hacia la igualdad real y efectiva de las personas con discapacidad, con enfoque inclusivo.",
+                    "id": "PND_1.1.15",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.15. Avanzar hacia la igualdad real y efectiva de las personas con discapacidad, con enfoque inclusivo.",
+                    "id": "PND_1.1.15",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.16 Proteger y promover el Patrimonio, los Bienes y Procesos Culturales.",
+                    "id": "PND_1.1.16",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.17. Atender con servicios públicos a la población joven, prioritariamente aquella en situación de pobreza y vulnerabilidad.",
+                    "id": "PND_1.1.17",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.17. Atender con servicios públicos a la población joven, prioritariamente aquella en situación de pobreza y vulnerabilidad.",
+                    "id": "PND_1.1.17",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.18. Lograr el bienestar de los pueblos indígenas, respetando su acervo cultural.",
+                    "id": "PND_1.1.18",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.1",
+                    "name": "1.1.19. Garantizar el acceso pleno de sus derechos a los adultos mayores.",
+                    "id": "PND_1.1.19",
+                    "value": 1
+                }
+            ],
+            "name": "PND_1.1",
+            "pnd_class": "PND_1.1",
+            "id": "PND_1.1"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_1.2",
+                    "name": "1.2.1 Alcanzar gradualmente los estándares internacionales de calidad educativa en todos los niveles.",
+                    "id": "PND_1.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.2",
+                    "name": "1.2.1 Alcanzar gradualmente los estándares internacionales de calidad educativa en todos los niveles.",
+                    "id": "PND_1.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.2",
+                    "name": "1.2.1 Alcanzar gradualmente los estándares internacionales de calidad educativa en todos los niveles.",
+                    "id": "PND_1.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.2",
+                    "name": "1.2.1 Alcanzar gradualmente los estándares internacionales de calidad educativa en todos los niveles.",
+                    "id": "PND_1.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.2",
+                    "name": "1.2.2 Aumentar la cobertura de salud, con calidad en el servicio",
+                    "id": "PND_1.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.2",
+                    "name": "1.2.2 Aumentar la cobertura de salud, con calidad en el servicio",
+                    "id": "PND_1.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.2",
+                    "name": "1.2.3 Disminuir las muertes prematuras por enfermedades no transmisibles, y de salud mental.",
+                    "id": "PND_1.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.2",
+                    "name": "1.2.3 Disminuir las muertes prematuras por enfermedades no transmisibles, y de salud mental.",
+                    "id": "PND_1.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.2",
+                    "name": "1.2.4 Reducir el número de muertes y lesiones causadas por accidentes de tránsito.",
+                    "id": "PND_1.2.4",
+                    "value": 1
+                }
+            ],
+            "name": "PND_1.2",
+            "pnd_class": "PND_1.2",
+            "id": "PND_1.2"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.1 Mejorar las condiciones de habitabilidad de los asentamientos precarios urbanos y rurales.",
+                    "id": "PND_1.3.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.1 Mejorar las condiciones de habitabilidad de los asentamientos precarios urbanos y rurales.",
+                    "id": "PND_1.3.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.1 Mejorar las condiciones de habitabilidad de los asentamientos precarios urbanos y rurales.",
+                    "id": "PND_1.3.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.1 Mejorar las condiciones de habitabilidad de los asentamientos precarios urbanos y rurales.",
+                    "id": "PND_1.3.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.2 Avanzar en el Ordenamiento Territorial a nivel municipal.",
+                    "id": "PND_1.3.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.2 Avanzar en el Ordenamiento Territorial a nivel municipal.",
+                    "id": "PND_1.3.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.2 Avanzar en el Ordenamiento Territorial a nivel municipal.",
+                    "id": "PND_1.3.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.2 Avanzar en el Ordenamiento Territorial a nivel municipal.",
+                    "id": "PND_1.3.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.3 Mejorar la participación de la población en la planificación de la gestión de las políticas publicas",
+                    "id": "PND_1.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.3 Mejorar la participación de la población en la planificación de la gestión de las políticas publicas",
+                    "id": "PND_1.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.3 Mejorar la participación de la población en la planificación de la gestión de las políticas publicas",
+                    "id": "PND_1.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.3 Mejorar la participación de la población en la planificación de la gestión de las políticas publicas",
+                    "id": "PND_1.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.3 Mejorar la participación de la población en la planificación de la gestión de las políticas publicas",
+                    "id": "PND_1.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.3",
+                    "name": "1.3.3 Mejorar la participación de la población en la planificación de la gestión de las políticas publicas",
+                    "id": "PND_1.3.3",
+                    "value": 1
+                }
+            ],
+            "name": "PND_1.3",
+            "pnd_class": "PND_1.3",
+            "id": "PND_1.3"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.1 Mejorar la gestión integral de residuos.",
+                    "id": "PND_1.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.1 Mejorar la gestión integral de residuos.",
+                    "id": "PND_1.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.1 Mejorar la gestión integral de residuos.",
+                    "id": "PND_1.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.1 Mejorar la gestión integral de residuos.",
+                    "id": "PND_1.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.1 Mejorar la gestión integral de residuos.",
+                    "id": "PND_1.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.1 Mejorar la gestión integral de residuos.",
+                    "id": "PND_1.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.1 Mejorar la gestión integral de residuos.",
+                    "id": "PND_1.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.2 Reducir las muertes atribuibles a la contaminación del aire",
+                    "id": "PND_1.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.2 Reducir las muertes atribuibles a la contaminación del aire",
+                    "id": "PND_1.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.2 Reducir las muertes atribuibles a la contaminación del aire",
+                    "id": "PND_1.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.3 Universalizar el acceso a la energía eléctrica y mejorar la calidad en el servicio.",
+                    "id": "PND_1.4.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.3 Universalizar el acceso a la energía eléctrica y mejorar la calidad en el servicio.",
+                    "id": "PND_1.4.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.3 Universalizar el acceso a la energía eléctrica y mejorar la calidad en el servicio.",
+                    "id": "PND_1.4.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.3 Universalizar el acceso a la energía eléctrica y mejorar la calidad en el servicio.",
+                    "id": "PND_1.4.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.3 Universalizar el acceso a la energía eléctrica y mejorar la calidad en el servicio.",
+                    "id": "PND_1.4.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.4 Reducir el déficit habitacional, cuantitativo y cualitativo.",
+                    "id": "PND_1.4.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.4 Reducir el déficit habitacional, cuantitativo y cualitativo.",
+                    "id": "PND_1.4.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.4 Reducir el déficit habitacional, cuantitativo y cualitativo.",
+                    "id": "PND_1.4.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.4 Reducir el déficit habitacional, cuantitativo y cualitativo.",
+                    "id": "PND_1.4.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.5 Universalizar el acceso a agua potable.",
+                    "id": "PND_1.4.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.5 Universalizar el acceso a agua potable.",
+                    "id": "PND_1.4.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.5 Universalizar el acceso a agua potable.",
+                    "id": "PND_1.4.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.5 Universalizar el acceso a agua potable.",
+                    "id": "PND_1.4.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.5 Universalizar el acceso a agua potable.",
+                    "id": "PND_1.4.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.6 Universalizar el acceso a saneamiento mejorado de la población con énfasis en sistemas de alcantarillado sanitario.",
+                    "id": "PND_1.4.6",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.6 Universalizar el acceso a saneamiento mejorado de la población con énfasis en sistemas de alcantarillado sanitario.",
+                    "id": "PND_1.4.6",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_1.4",
+                    "name": "1.4.6 Universalizar el acceso a saneamiento mejorado de la población con énfasis en sistemas de alcantarillado sanitario.",
+                    "id": "PND_1.4.6",
+                    "value": 1
+                }
+            ],
+            "name": "PND_1.4",
+            "pnd_class": "PND_1.4",
+            "id": "PND_1.4"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.1 Lograr el crecimiento de los ingresos del 40% de la población mas pobre a una tasa superior a la media nacional.",
+                    "id": "PND_2.1.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.1 Lograr el crecimiento de los ingresos del 40% de la población mas pobre a una tasa superior a la media nacional.",
+                    "id": "PND_2.1.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.1 Lograr el crecimiento de los ingresos del 40% de la población mas pobre a una tasa superior a la media nacional.",
+                    "id": "PND_2.1.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.2 Incrementar la participación de la población joven y vulnerable en los programas de formación y capacitación técnica profesional de calidad.",
+                    "id": "PND_2.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.2 Incrementar la participación de la población joven y vulnerable en los programas de formación y capacitación técnica profesional de calidad.",
+                    "id": "PND_2.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.2 Incrementar la participación de la población joven y vulnerable en los programas de formación y capacitación técnica profesional de calidad.",
+                    "id": "PND_2.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.2 Incrementar la participación de la población joven y vulnerable en los programas de formación y capacitación técnica profesional de calidad.",
+                    "id": "PND_2.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.3 Universalizar la cobertura de seguridad social.",
+                    "id": "PND_2.1.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.3 Universalizar la cobertura de seguridad social.",
+                    "id": "PND_2.1.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.3 Universalizar la cobertura de seguridad social.",
+                    "id": "PND_2.1.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.4 Aumentar la inclusión financiera de la poblacion.",
+                    "id": "PND_2.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.4 Aumentar la inclusión financiera de la poblacion.",
+                    "id": "PND_2.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.4 Aumentar la inclusión financiera de la poblacion.",
+                    "id": "PND_2.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.4 Aumentar la inclusión financiera de la poblacion.",
+                    "id": "PND_2.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.1",
+                    "name": "2.1.4 Aumentar la inclusión financiera de la poblacion.",
+                    "id": "PND_2.1.4",
+                    "value": 1
+                }
+            ],
+            "name": "PND_2.1",
+            "pnd_class": "PND_2.1",
+            "id": "PND_2.1"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.1 Regularizar la tenencia de la tierra, con énfasis en beneficiarios de la reforma agraria.",
+                    "id": "PND_2.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.1 Regularizar la tenencia de la tierra, con énfasis en beneficiarios de la reforma agraria.",
+                    "id": "PND_2.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.2 Mejorar la competitividad de la agricultura familiar y su inserción en los mercados nacionales e internacionales. ",
+                    "id": "PND_2.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.2 Mejorar la competitividad de la agricultura familiar y su inserción en los mercados nacionales e internacionales. ",
+                    "id": "PND_2.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.2 Mejorar la competitividad de la agricultura familiar y su inserción en los mercados nacionales e internacionales. ",
+                    "id": "PND_2.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.2 Mejorar la competitividad de la agricultura familiar y su inserción en los mercados nacionales e internacionales. ",
+                    "id": "PND_2.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.2 Mejorar la competitividad de la agricultura familiar y su inserción en los mercados nacionales e internacionales. ",
+                    "id": "PND_2.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.2 Mejorar la competitividad de la agricultura familiar y su inserción en los mercados nacionales e internacionales. ",
+                    "id": "PND_2.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.2 Mejorar la competitividad de la agricultura familiar y su inserción en los mercados nacionales e internacionales. ",
+                    "id": "PND_2.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.2 Mejorar la competitividad de la agricultura familiar y su inserción en los mercados nacionales e internacionales. ",
+                    "id": "PND_2.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.3 Consolidar a las universidades y a los Centros de Investigacion en el campo de la investigación y extensión. ",
+                    "id": "PND_2.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.3 Consolidar a las universidades y a los Centros de Investigacion en el campo de la investigación y extensión. ",
+                    "id": "PND_2.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.3 Consolidar a las universidades y a los Centros de Investigacion en el campo de la investigación y extensión. ",
+                    "id": "PND_2.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.3 Consolidar a las universidades y a los Centros de Investigacion en el campo de la investigación y extensión. ",
+                    "id": "PND_2.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.3 Consolidar a las universidades y a los Centros de Investigacion en el campo de la investigación y extensión. ",
+                    "id": "PND_2.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.3 Consolidar a las universidades y a los Centros de Investigacion en el campo de la investigación y extensión. ",
+                    "id": "PND_2.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.5. Lograr un crecimiento promedio de la economía que propicie el desarrollo sostenible e inclusivo.",
+                    "id": "PND_2.2.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.5. Lograr un crecimiento promedio de la economía que propicie el desarrollo sostenible e inclusivo.",
+                    "id": "PND_2.2.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.6 Mantener baja tasa de inflación y con reducida volatilidad.",
+                    "id": "PND_2.2.6",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.6 Mantener baja tasa de inflación y con reducida volatilidad.",
+                    "id": "PND_2.2.6",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.6 Mantener baja tasa de inflación y con reducida volatilidad.",
+                    "id": "PND_2.2.6",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.7 Lograr Mayores niveles de trabajo decente y de calidad",
+                    "id": "PND_2.2.7",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.7 Lograr Mayores niveles de trabajo decente y de calidad",
+                    "id": "PND_2.2.7",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.7 Lograr Mayores niveles de trabajo decente y de calidad",
+                    "id": "PND_2.2.7",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.8 Formalizar las actividades económicas de los diferentes sectores.",
+                    "id": "PND_2.2.8",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.8 Formalizar las actividades económicas de los diferentes sectores.",
+                    "id": "PND_2.2.8",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.8 Formalizar las actividades económicas de los diferentes sectores.",
+                    "id": "PND_2.2.8",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.9 Mejorar la eficiencia del gasto público.",
+                    "id": "PND_2.2.9",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.9. Mejorar la eficiencia del gasto público.",
+                    "id": "PND_2.2.9",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.10. Consolidar una red de transporte multimodal eficiente.",
+                    "id": "PND_2.2.10",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.11 Aumentar la velocidad de transferencia de datos de internet",
+                    "id": "PND_2.2.11",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.2",
+                    "name": "2.2.12 Aumentar la utilizacion de internet de banda ancha o su equivalente",
+                    "id": "PND_2.2.12",
+                    "value": 1
+                }
+            ],
+            "name": "PND_2.2",
+            "pnd_class": "PND_2.2",
+            "id": "PND_2.2"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_2.3",
+                    "name": "2.3.1. Reducir la brecha de ingresos promedio de los hogares a nivel departamental.",
+                    "id": "PND_2.3.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.3",
+                    "name": "2.3.1. Reducir la brecha de ingresos promedio de los hogares a nivel departamental.",
+                    "id": "PND_2.3.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.3",
+                    "name": "2.3.2 Fortalecer a las MiPymes en la producción de Bienes y Servicios.",
+                    "id": "PND_2.3.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.3",
+                    "name": "2.3.2 Fortalecer a las MiPymes en la producción de Bienes y Servicios.",
+                    "id": "PND_2.3.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.3",
+                    "name": "2.3.3. Incrementar la participación del consumo de electricidad para uso industrial.",
+                    "id": "PND_2.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.3",
+                    "name": "2.3.3. Incrementar la participación del consumo de electricidad para uso industrial.",
+                    "id": "PND_2.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.3",
+                    "name": "2.3.3. Incrementar la participación del consumo de electricidad para uso industrial.",
+                    "id": "PND_2.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.3",
+                    "name": "2.3.3. Incrementar la participación del consumo de electricidad para uso industrial.",
+                    "id": "PND_2.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.3",
+                    "name": "2.3.3. Incrementar la participación del consumo de electricidad para uso industrial.",
+                    "id": "PND_2.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.3",
+                    "name": "2.3.4 Aumentar la contribución de la Minería al Producto Interno Bruto.",
+                    "id": "PND_2.3.4",
+                    "value": 1
+                }
+            ],
+            "name": "PND_2.3",
+            "pnd_class": "PND_2.3",
+            "id": "PND_2.3"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_2.4",
+                    "name": "2.4.2. Dinamizar el mercado de certificados de servicios ambientales.",
+                    "id": "PND_2.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.4",
+                    "name": "2.4.2. Dinamizar el mercado de certificados de servicios ambientales.",
+                    "id": "PND_2.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.4",
+                    "name": "2.4.2. Dinamizar el mercado de certificados de servicios ambientales.",
+                    "id": "PND_2.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.4",
+                    "name": "2.4.3. Desarrollar y diversificar, hacia una matriz energética sostenible",
+                    "id": "PND_2.4.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.4",
+                    "name": "2.4.3. Desarrollar y diversificar, hacia una matriz energética sostenible",
+                    "id": "PND_2.4.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.4",
+                    "name": "2.4.3. Desarrollar y diversificar, hacia una matriz energética sostenible",
+                    "id": "PND_2.4.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.4",
+                    "name": "2.4.4 Aumentar la generación de energías renovables alternativas (solar, eólica y biogás, pequeñas centrales hidroeléctricas)",
+                    "id": "PND_2.4.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.4",
+                    "name": "2.4.4 Aumentar la generación de energías renovables alternativas (solar, eólica y biogás, pequeñas centrales hidroeléctricas)",
+                    "id": "PND_2.4.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.4",
+                    "name": "2.4.4 Aumentar la generación de energías renovables alternativas (solar, eólica y biogás, pequeñas centrales hidroeléctricas)",
+                    "id": "PND_2.4.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.4",
+                    "name": "2.4.4 Aumentar la generación de energías renovables alternativas (solar, eólica y biogás, pequeñas centrales hidroeléctricas)",
+                    "id": "PND_2.4.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_2.4",
+                    "name": "2.4.4 Aumentar la generación de energías renovables alternativas (solar, eólica y biogás, pequeñas centrales hidroeléctricas)",
+                    "id": "PND_2.4.4",
+                    "value": 1
+                }
+            ],
+            "name": "PND_2.4",
+            "pnd_class": "PND_2.4",
+            "id": "PND_2.4"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_3.1",
+                    "name": "3.1.1 Impulsar una gestión diplomática y consular eficiente y transparente para el desarrollo sostenible y en defensa de los intereses nacionales ",
+                    "id": "PND_3.1.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.1",
+                    "name": "3.1.1 Impulsar una gestión diplomática y consular eficiente y transparente para el desarrollo sostenible y en defensa de los intereses nacionales ",
+                    "id": "PND_3.1.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.1",
+                    "name": "3.1.2 Promover la reinserción de paraguayos del exterior y la inserción de extranjeros al proceso de desarrollo nacional.",
+                    "id": "PND_3.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.1",
+                    "name": "3.1.3 Aumentar la eficiencia de la Cooperación para el Desarrollo.",
+                    "id": "PND_3.1.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.1",
+                    "name": "3.1.3 Aumentar la eficiencia de la Cooperación para el Desarrollo.",
+                    "id": "PND_3.1.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.1",
+                    "name": "3.1.3 Aumentar la eficiencia de la Cooperación para el Desarrollo.",
+                    "id": "PND_3.1.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.1",
+                    "name": "3.1.3 Aumentar la eficiencia de la Cooperación para el Desarrollo.",
+                    "id": "PND_3.1.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.1",
+                    "name": "3.1.3 Aumentar la eficiencia de la Cooperación para el Desarrollo.",
+                    "id": "PND_3.1.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.1",
+                    "name": "3.1.3 Aumentar la eficiencia de la Cooperación para el Desarrollo.",
+                    "id": "PND_3.1.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.1",
+                    "name": "3.1.3 Aumentar la eficiencia de la Cooperación para el Desarrollo.",
+                    "id": "PND_3.1.3",
+                    "value": 1
+                }
+            ],
+            "name": "PND_3.1",
+            "pnd_class": "PND_3.1",
+            "id": "PND_3.1"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.1 Mejorar el posicionamiento de Paraguay entre los exportadores mundiales competitivos de alimentos.",
+                    "id": "PND_3.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.1 Mejorar el posicionamiento de Paraguay entre los exportadores mundiales competitivos de alimentos.",
+                    "id": "PND_3.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.1 Mejorar el posicionamiento de Paraguay entre los exportadores mundiales competitivos de alimentos.",
+                    "id": "PND_3.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.1 Mejorar el posicionamiento de Paraguay entre los exportadores mundiales competitivos de alimentos.",
+                    "id": "PND_3.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.1 Mejorar el posicionamiento de Paraguay entre los exportadores mundiales competitivos de alimentos.",
+                    "id": "PND_3.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.1 Mejorar el posicionamiento de Paraguay entre los exportadores mundiales competitivos de alimentos.",
+                    "id": "PND_3.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.1 Mejorar el posicionamiento de Paraguay entre los exportadores mundiales competitivos de alimentos.",
+                    "id": "PND_3.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.1 Mejorar el posicionamiento de Paraguay entre los exportadores mundiales competitivos de alimentos.",
+                    "id": "PND_3.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.1 Mejorar el posicionamiento de Paraguay entre los exportadores mundiales competitivos de alimentos.",
+                    "id": "PND_3.2.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.2 Aumentar la exportación de productos y servicios no tradicionales",
+                    "id": "PND_3.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.2 Aumentar la exportación de productos y servicios no tradicionales",
+                    "id": "PND_3.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.2 Aumentar la exportación de productos y servicios no tradicionales",
+                    "id": "PND_3.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.2 Aumentar la exportación de productos y servicios no tradicionales",
+                    "id": "PND_3.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.2 Aumentar la exportación de productos y servicios no tradicionales",
+                    "id": "PND_3.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.3 Incrementar la inversión extranjera y nacional que favorezca la generación de empleo.",
+                    "id": "PND_3.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.3 Incrementar la inversión extranjera y nacional que favorezca la generación de empleo.",
+                    "id": "PND_3.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.3 Incrementar la inversión extranjera y nacional que favorezca la generación de empleo.",
+                    "id": "PND_3.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.3 Incrementar la inversión extranjera y nacional que favorezca la generación de empleo.",
+                    "id": "PND_3.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.4 Desarrollar el turismo sostenible",
+                    "id": "PND_3.2.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.2",
+                    "name": "3.2.4 Desarrollar el turismo sostenible",
+                    "id": "PND_3.2.4",
+                    "value": 1
+                }
+            ],
+            "name": "PND_3.2",
+            "pnd_class": "PND_3.2",
+            "id": "PND_3.2"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_3.3",
+                    "name": "3.3.1 Consolidar y mantener a las vías fluviales como elemento fundamental de la matriz de transporte nacional y eje de integración regional",
+                    "id": "PND_3.3.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.3",
+                    "name": "3.3.1 Consolidar y mantener a las vías fluviales como elemento fundamental de la matriz de transporte nacional y eje de integración regional",
+                    "id": "PND_3.3.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.3",
+                    "name": "3.3.2 Aumentar los ingresos por venta de energía, a través de la libre comercialización de electricidad de binacionales y otras fuentes de generación.",
+                    "id": "PND_3.3.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.3",
+                    "name": "3.3.2 Aumentar los ingresos por venta de energía, a través de la libre comercialización de electricidad de binacionales y otras fuentes de generación.",
+                    "id": "PND_3.3.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.3",
+                    "name": "3.3.3 Hacer del Paraguay el eje de una integración energética regional.",
+                    "id": "PND_3.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.3",
+                    "name": "3.3.3 Hacer del Paraguay el eje de una integración energética regional.",
+                    "id": "PND_3.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.3",
+                    "name": "3.3.3 Hacer del Paraguay el eje de una integración energética regional.",
+                    "id": "PND_3.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.3",
+                    "name": "3.3.3 Hacer del Paraguay el eje de una integración energética regional.",
+                    "id": "PND_3.3.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.3",
+                    "name": "3.3.3 Hacer del Paraguay el eje de una integración energética regional.",
+                    "id": "PND_3.3.3",
+                    "value": 1
+                }
+            ],
+            "name": "PND_3.3",
+            "pnd_class": "PND_3.3",
+            "id": "PND_3.3"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_3.4",
+                    "name": "3.4.1 Reducir las emisiones de los Gases de Efectos invernadero (GEI)",
+                    "id": "PND_3.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.4",
+                    "name": "3.4.1 Reducir las emisiones de los Gases de Efectos invernadero (GEI)",
+                    "id": "PND_3.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.4",
+                    "name": "3.4.2 Aumentar la capacidad de adaptación y resiliencia a los efectos del cambio climático",
+                    "id": "PND_3.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.4",
+                    "name": "3.4.2 Aumentar la capacidad de adaptación y resiliencia a los efectos del cambio climático",
+                    "id": "PND_3.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.4",
+                    "name": "3.4.2 Aumentar la capacidad de adaptación y resiliencia a los efectos del cambio climático",
+                    "id": "PND_3.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.4",
+                    "name": "3.4.2 Aumentar la capacidad de adaptación y resiliencia a los efectos del cambio climático",
+                    "id": "PND_3.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.4",
+                    "name": "3.4.2 Aumentar la capacidad de adaptación y resiliencia a los efectos del cambio climático",
+                    "id": "PND_3.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.4",
+                    "name": "3.4.2 Aumentar la capacidad de adaptación y resiliencia a los efectos del cambio climático",
+                    "id": "PND_3.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.4",
+                    "name": "3.4.2 Aumentar la capacidad de adaptación y resiliencia a los efectos del cambio climático",
+                    "id": "PND_3.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.4",
+                    "name": "3.4.2 Aumentar la capacidad de adaptación y resiliencia a los efectos del cambio climático",
+                    "id": "PND_3.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_3.4",
+                    "name": "3.4.2 Aumentar la capacidad de adaptación y resiliencia a los efectos del cambio climático",
+                    "id": "PND_3.4.2",
+                    "value": 1
+                }
+            ],
+            "name": "PND_3.4",
+            "pnd_class": "PND_3.4",
+            "id": "PND_3.4"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_4.1",
+                    "name": "4.1.1 Mejorar el acceso y alcanzar una eficiencia administrativa de la justicia con igualdad de oportunidades.",
+                    "id": "PND_4.1.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.1",
+                    "name": "4.1.1 Mejorar el acceso y alcanzar una eficiencia administrativa de la justicia con igualdad de oportunidades.",
+                    "id": "PND_4.1.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.1",
+                    "name": "4.1.2 Garantizar el acceso y la defensa de los DDHH sin discriminación alguna.",
+                    "id": "PND_4.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.1",
+                    "name": "4.1.2 Garantizar el acceso y la defensa de los DDHH sin discriminación alguna.",
+                    "id": "PND_4.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.1",
+                    "name": "4.1.2 Garantizar el acceso y la defensa de los DDHH sin discriminación alguna.",
+                    "id": "PND_4.1.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.1",
+                    "name": "4.1.3 Reducir los homicidios dolosos ",
+                    "id": "PND_4.1.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.1",
+                    "name": "4.1.4 Fortalecer la lucha contra el crimen organizado, transfronterizo y actividades conexas ",
+                    "id": "PND_4.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.1",
+                    "name": "4.1.4 Fortalecer la lucha contra el crimen organizado, transfronterizo y actividades conexas ",
+                    "id": "PND_4.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.1",
+                    "name": "4.1.4 Fortalecer la lucha contra el crimen organizado, transfronterizo y actividades conexas ",
+                    "id": "PND_4.1.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.1",
+                    "name": "4.1.5 Garantizar la seguridad multidimensional y defensa del territorio paraguayo, del estado y su patrimonio",
+                    "id": "PND_4.1.5",
+                    "value": 1
+                }
+            ],
+            "name": "PND_4.1",
+            "pnd_class": "PND_4.1",
+            "id": "PND_4.1"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.2 Mejorar el acceso efectivo a la información pública, y la rendicion de cuentas",
+                    "id": "PND_4.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.2 Mejorar el acceso efectivo a la información pública, y la rendicion de cuentas",
+                    "id": "PND_4.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.2 Mejorar el acceso efectivo a la información pública, y la rendicion de cuentas",
+                    "id": "PND_4.2.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.3. Simplificación de trámites y aumento de la oferta de servicios públicos en línea.",
+                    "id": "PND_4.2.3",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.4. Mejorar la capacidad del Sistema Estadístico Nacional ",
+                    "id": "PND_4.2.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.4. Mejorar la capacidad del Sistema Estadístico Nacional ",
+                    "id": "PND_4.2.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.4. Mejorar la capacidad del Sistema Estadístico Nacional ",
+                    "id": "PND_4.2.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.4. Mejorar la capacidad del Sistema Estadístico Nacional ",
+                    "id": "PND_4.2.4",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.5. Asegurar la transparencia y eficiencia gubernamental",
+                    "id": "PND_4.2.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.5. Asegurar la transparencia y eficiencia gubernamental",
+                    "id": "PND_4.2.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.5. Asegurar la transparencia y eficiencia gubernamental",
+                    "id": "PND_4.2.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.5. Asegurar la transparencia y eficiencia gubernamental",
+                    "id": "PND_4.2.5",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.6. Mejorar la eficiencia y transparencia de las compras públicas.",
+                    "id": "PND_4.2.6",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.6. Mejorar la eficiencia y transparencia de las compras públicas.",
+                    "id": "PND_4.2.6",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.6. Mejorar la eficiencia y transparencia de las compras públicas.",
+                    "id": "PND_4.2.6",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.2",
+                    "name": "4.2.6. Mejorar la eficiencia y transparencia de las compras públicas.",
+                    "id": "PND_4.2.6",
+                    "value": 1
+                }
+            ],
+            "name": "PND_4.2",
+            "pnd_class": "PND_4.2",
+            "id": "PND_4.2"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_4.3",
+                    "name": "4.3.1 Desconcentrar y articular efectivamente la gestión de los servicios sociales y públicos a nivel territorial.",
+                    "id": "PND_4.3.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.3",
+                    "name": "4.3.1 Desconcentrar y articular efectivamente la gestión de los servicios sociales y públicos a nivel territorial.",
+                    "id": "PND_4.3.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.3",
+                    "name": "4.3.1 Desconcentrar y articular efectivamente la gestión de los servicios sociales y públicos a nivel territorial.",
+                    "id": "PND_4.3.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.3",
+                    "name": "4.3.2. Establecer acuerdos programáticos de gestión de servicios sociales entre la administración central y gobiernos subnacionales.",
+                    "id": "PND_4.3.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.3",
+                    "name": "4.3.2. Establecer acuerdos programáticos de gestión de servicios sociales entre la administración central y gobiernos subnacionales.",
+                    "id": "PND_4.3.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.3",
+                    "name": "4.3.3. Alcanzar una mayor eficiencia de las políticas públicas a nivel territorial mejorando la capacidad de gestión de los gobiernos subnacionales.",
+                    "id": "PND_4.3.3",
+                    "value": 1
+                }
+            ],
+            "name": "PND_4.3",
+            "pnd_class": "PND_4.3",
+            "id": "PND_4.3"
+        },
+        {
+            "children": [
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.1. Recuperar y preservar el medio ambiente y los recursos naturales",
+                    "id": "PND_4.4.1",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.2. Propiciar el manejo sostenible de los bosques, su conservación y restauración.",
+                    "id": "PND_4.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.2. Propiciar el manejo sostenible de los bosques, su conservación y restauración.",
+                    "id": "PND_4.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.2. Propiciar el manejo sostenible de los bosques, su conservación y restauración.",
+                    "id": "PND_4.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.2. Propiciar el manejo sostenible de los bosques, su conservación y restauración.",
+                    "id": "PND_4.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.2. Propiciar el manejo sostenible de los bosques, su conservación y restauración.",
+                    "id": "PND_4.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.2. Propiciar el manejo sostenible de los bosques, su conservación y restauración.",
+                    "id": "PND_4.4.2",
+                    "value": 1
+                },
+                {
+                    "pnd_class": "PND_4.4",
+                    "name": "4.4.2. Propiciar el manejo sostenible de los bosques, su conservación y restauración.",
+                    "id": "PND_4.4.2",
+                    "value": 1
+                }
+            ],
+            "name": "PND_4.4",
+            "pnd_class": "PND_4.4",
+            "id": "PND_4.4"
+        }
+    ]
+}

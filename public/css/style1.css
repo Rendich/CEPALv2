@@ -1,0 +1,46 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+ font: 14px/1.4 Georgia, Serif;
+}
+#page-wrap {
+  margin: 0px;
+}
+p {
+  margin: 20px 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+td, th {
+  text-align: left;
+  padding: 6px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+}
+.slice {
+    cursor: pointer;
+}
+.slice .main-arc {
+    stroke: #fff;
+    stroke-width: 1px;
+}
+.slice .hidden-arc {
+    fill: none;
+}
+.slice text {
+    pointer-events: none;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
+#partitionSVG{
+}
