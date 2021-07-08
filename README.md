@@ -19,9 +19,9 @@ El gráfico de la izquierda muestra los Objetivos de Desarrollo Sostenible (ODS)
 El anillo más interno tiene 17 secciones, correspondientes a las 17 Metas ODS.  
 ![cepal1](https://user-images.githubusercontent.com/44811829/124857087-aa87de80-df79-11eb-9859-232fe0ac3bc7.gif)
 
-Cada sección, u ODS, a su vez se compone de las secciones conectadas en el anillo externo, o Metas ODS. 
+Cada sección, u ODS, a su vez se compone de las secciones conectadas en el anillo externo, o Metas ODS, y su grosor de cada sección indica cuántos objetivos del PND están asociados. 
 
-El grosor de cada sección indica cuántos objetivos del PND están asociados. 
+![cepal3](https://user-images.githubusercontent.com/44811829/124858635-7235cf80-df7c-11eb-8a18-87bfe4053217.gif)
 
 Puedes navegar por el gráfico, o utilizando la lista de la izquierda, con lo que se actualiza la tabla de la derecha.
 ![cepal2](https://user-images.githubusercontent.com/44811829/124857893-1880d580-df7b-11eb-93ff-c07c8c23ae66.gif)
