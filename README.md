@@ -8,6 +8,7 @@ El Plan Nacional de Desarrollo (PND) consta de 16 objetivos estratégicos y 72  
 La visualización busca graficar dichas relaciones y estará diseñada para ser accedida desde equipos de pantalla grande (principalmente, notebook y computador de escritorio).
 
 ## Secciones y preguntas: 
+Se definen las siguientes 3 secciones, donde cada una de ellas busca responder las siguientes preguntas:
 ODS:  Cómo se componen? Cómo se relaciona con PND?  
 PND:  Cómo se compone? Cómo se relaciona con ODS?  
 Relaciones: Cómo se interconectan PND y ODS? Cómo es la vinculación?  
