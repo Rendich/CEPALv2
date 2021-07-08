@@ -8,12 +8,28 @@ El Plan Nacional de Desarrollo (PND) consta de 16 objetivos estratégicos y 72  
 La visualización busca graficar dichas relaciones y estará diseñada para ser accedida desde equipos de pantalla grande (principalmente, notebook y computador de escritorio).
 
 ## Secciones y preguntas: 
-Se definen las siguientes 3 secciones, donde cada una de ellas busca responder las siguientes preguntas:
+Se definen las siguientes 3 secciones, donde cada una de ellas busca responder las siguientes preguntas:  
 ODS:  Cómo se componen? Cómo se relaciona con PND?  
 PND:  Cómo se compone? Cómo se relaciona con ODS?  
 Relaciones: Cómo se interconectan PND y ODS? Cómo es la vinculación?  
 
-# Configuración
+## Exploración
+### Sección Objetivos de Desarrollo Sostenible (ODS)
+El gráfico de la izquierda muestra los Objetivos de Desarrollo Sostenible (ODS).  
+El anillo más interno tiene 17 secciones, correspondientes a las 17 Metas ODS.  
+![cepal1](https://user-images.githubusercontent.com/44811829/124857087-aa87de80-df79-11eb-9859-232fe0ac3bc7.gif)
+
+Cada sección, u ODS, a su vez se compone de las secciones conectadas en el anillo externo, o Metas ODS. 
+
+El grosor de cada sección indica cuántos objetivos del PND están asociados. 
+
+Puedes navegar por el gráfico, o utilizando la lista de la izquierda, con lo que se actualiza la tabla de la derecha.
+![cepal2](https://user-images.githubusercontent.com/44811829/124857893-1880d580-df7b-11eb-93ff-c07c8c23ae66.gif)
+
+
+
+# Parte Técnica
+## Configuración
 Esta visualización  se crea con la funcion sunBurstSection, a través de los siguientes parámetros:
 ```
 sunBurstSection(fileCsv,
@@ -91,7 +107,7 @@ sunBurstSection(fileCsv,
                 "F1B628", "E65631", "E55530", "508730"
               ]);
 ```
-# Base y Agradecimientos
+## Base y Agradecimientos
 La primera y segunda visualización se basa en:
 https://observablehq.com/@d3/zoomable-sunburst, con licencia ISC License.  
 La tercera visualización se basa en:
