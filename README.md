@@ -37,6 +37,10 @@ Esta sección es equivalente a la anterior, pero para el PND.
 Este gráfico muestra tanto ODS como PND, y al pasar el mouse muestra sus interconexiones:
 ![cepal4](https://user-images.githubusercontent.com/44811829/124860682-0eada100-df80-11eb-9385-de163cd7602b.gif)
 
+La tabla asociada muestra la vinculación de las Metas ODS con los Objetivos PND.  
+En este caso, las primeras filas del PND 4.4.2, donde se ven vinculaciones de los 3 tipos: Parcial, Contribución y Total:  
+<img width="653" src="https://user-images.githubusercontent.com/44811829/124860862-7bc13680-df80-11eb-9825-6e449bef0621.png">
+
 
 # Aspectos Técnicos
 ## Configuración
