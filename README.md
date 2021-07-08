@@ -1,4 +1,13 @@
-# Visualización de Datos
+# Visualización de Vínculos PND-ODS
+Se desea visualizar los vínculos entre el Plan Nacional de Desarrollo de Paraguay y los Objetivos de Desarrollo Sostenible de la Agenda 2030. Se busca una visualización dinámica que sirva como mecanismo de difusión de los objetivos de desarrollo en el país para múltiples interesados, presentando el vínculo entre cada elemento del plan y su(s) correspondiente(s) objetivo(s).
+## Resumen
+El Plan Nacional de Desarrollo (PND) consta de 16 objetivos estratégicos y 72  objetivos específicos. Por otro lado, los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030 constan de 17 objetivos con 169 metas.
+La visualización busca graficar dichas relaciones y estará diseñada para ser accedida desde equipos de pantalla grande (principalmente, notebook y computador de escritorio).
+
+## Secciones y preguntas: 
+ODS:  Cómo se componen? Cómo se relaciona con PND?  
+PND:  Cómo se compone? Cómo se relaciona con ODS?  
+Relaciones: Cómo se interconectan PND y ODS? Cómo es la vinculación?  
 
 # Configuración
 Esta visualización  se crea con la funcion sunBurstSection, a través de los siguientes parámetros:
@@ -37,7 +46,6 @@ sunBurstSection(fileCsv,
         stringObjetivoEstrategico = "Objetivo Estratégico";
         tableHeaders = ["ODS","Meta ODS","Objetivo PND", "PND_grupo"];
         idSVG = '#partitionSVG1';
-        fileJson = 'data/my_input1.json';
         fileJson = 'data/my_input1_clean.json';
         idTable = '#idTable';
         stringTitle = "Metas ODS ";
@@ -51,7 +59,6 @@ sunBurstSection(fileCsv,
         colSubgroup = "PND_subgrupo";
         arcClass = "pnd_class";
         stringObjetivoEstrategico = "Objetivo Estratégico";
-        fileJson = 'data/my_input2.json';
         fileJson = 'data/my_input2_clean.json';
         stringTitle = "Objetivos PND ";
         tableHeaders = ["PND_grupo","Objetivo PND","Meta ODS", "ODS"]
@@ -78,3 +85,19 @@ La primera y segunda visualización se basa en:
 https://observablehq.com/@d3/zoomable-sunburst, con licencia ISC License.  
 La tercera visualización se basa en:
 https://observablehq.com/@d3/hierarchical-edge-bundling, con licencia ISC License.
+
+```
+Copyright 2018–2020 Observable, Inc.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+```
