@@ -281,7 +281,7 @@
             const columns = tableHeaders;
             tabulate(data,columns);
           });
-        /************************************************************************************/
+            /************************************************************************************/
                 const width = window.innerWidth,
                     height = window.innerHeight,
                     maxRadius = (Math.min(width, height) / 2) - 5;
@@ -532,9 +532,42 @@
         d3version3 = d3
         window.d3 = null
         ////////
-        function HierarchicalEdgeBundleSection(color_hash){
+        /*fileCsv,                    ok
+          divSelect,                  ok
+          idSelect,                   ok
+          colMetaODS,                 
+          colSubgroup,                ok ODS_subgrupo
+          colGroup,                   ok PND_subgrupo
+          colObjetivoEstrategico,     
+          arcClass,                   
+          stringObjetivoEstrategico,  
+          tableHeaders,               ok
+          idSVG,                      ok
+          fileJson,                   ok
+          idTable,                    ok
+          stringTitle,                
+          colLeft,                    
+          colRight,                   
+          sunburstColor               colorHash
+          */
+
+        function HierarchicalEdgeBundleSection(fileCsv,
+divSelect,
+idSelect,
+colODSsubgrupo,
+colPNDsubgrupo,
+colODSgrupo,
+colPNDgrupo,
+colMetaODS,
+colObjetivoPND,
+tableHeaders,
+idSVG,
+fileJson,
+idTable,
+colorHash,){
+
             var tabulate3 = function (data,columns) {
-                var table = d3version3.select('#idTable3')
+                var table = d3version3.select(idTable)
                 var thead = table.append('thead')
                 var tbody = table.append('tbody')
 
@@ -549,7 +582,7 @@
                     .data(data)
                     .enter()
                   .append('tr').attr('class', function (d) {
-                      return d["PND_subgrupo"] +" "+d["ODS_subgrupo"]
+                      return d[colPNDsubgrupo] +" "+d[colODSsubgrupo]
                    })
                   .each(function (d) {
                         d3version3.select(this).style("visibility", "collapse");
@@ -571,16 +604,13 @@
                 return table;
               } // var tabulate3 = function (data,columns) {
 
-              d3version3.csv("data/my_input3.csv", function(error, data) {
-                const columns = ["Meta ODS",
-                  "Objetivo PND",
-                  "Vinculación",
-                ]
-                var select = d3version3.select("#divSelect3")
+              d3version3.csv(fileCsv, function(error, data) {
+                const columns = tableHeaders;
+                var select = d3version3.select(divSelect)
                   .append("div")
                   .append("select").
                   attr("class", "btn btn-danger").
-                  attr("id", "idSelect3")
+                  attr("id", idSelect)
 
                 select
                   .on("change", function(d) {
@@ -594,7 +624,7 @@
 
                   });
                 var groupAndSubgroup = d3version3.nest()
-                  .key(function(d) { return d["ODS_grupo"]; }).sortKeys(function(a,b) {
+                  .key(function(d) { return d[colODSgrupo]; }).sortKeys(function(a,b) {
                       A=a.split("_");
                       B=b.split("_");
                       return d3version3.ascending(A[0], B[0]) ||
@@ -602,7 +632,7 @@
                       d3version3.ascending(parseFloat(A[2]), parseFloat(B[2])) ||
                       d3version3.ascending(A2.key,B2.key);
                   })
-                  .key(function(d) { return d["ODS_subgrupo"]; }).sortKeys(function(a,b) {
+                  .key(function(d) { return d[colODSsubgrupo]; }).sortKeys(function(a,b) {
                       A=a.split("_")
                       B=b.split("_")
                       return d3version3.ascending(A[0], B[0]) ||
@@ -612,7 +642,7 @@
                     .entries(data);
 
                 var groupAndSubgroup2 = d3version3.nest()
-                  .key(function(d) { return d["PND_grupo"]; }).sortKeys(function(a,b) {
+                  .key(function(d) { return d[colPNDgrupo]; }).sortKeys(function(a,b) {
                       A=a.split("_");
                       B=b.split("_");
                       return d3version3.ascending(A[0], B[0]) ||
@@ -621,7 +651,7 @@
                       d3version3.ascending(parseFloat(A[3]), parseFloat(B[3])) ||
                       d3version3.ascending(A2.key,B2.key);
                   })
-                  .key(function(d) { return d["PND_subgrupo"]; }).sortKeys(function(a,b) {
+                  .key(function(d) { return d[colPNDsubgrupo]; }).sortKeys(function(a,b) {
                       A=a.split("_");
                       B=b.split("_");
                       return d3version3.ascending(A[0], B[0]) ||
@@ -662,9 +692,9 @@
                   .text(function (d, i) {
                       str =  d.key
                       if(str.startsWith("ODS")){
-                        val = d.values[0]["Meta ODS"];
+                        val = d.values[0][colMetaODS];
                       }else if(str.startsWith("PND")){
-                        val = d.values[0]["Objetivo PND"];
+                        val = d.values[0][colObjetivoPND];
                       }
                       else{
                         console.log("ERROR");
@@ -717,7 +747,7 @@
               .radius(function(d) { return d.y; })
               .angle(function(d) { return d.x / 180 * Math.PI; });
 
-            var div = d3version3.select("#bundle")
+            var div = d3version3.select(idSVG)
               .style("width", w + "px")
               .style("height", w + "px")
               .style("position", "absolute");
@@ -733,7 +763,7 @@
               .attr("d", d3version3.svg.arc().outerRadius(ry - 180).innerRadius(0).startAngle(0).endAngle(2 * Math.PI))
               .on("mousedown", mousedown);
 
-            d3version3.json("data/my_input3.json", function(classes) {
+            d3version3.json(fileJson, function(classes) {
                 var nodes = cluster.nodes(packages.root(classes)),
                   links = packages.imports(nodes),
                   splines = bundle(links);
@@ -772,7 +802,7 @@
                 var nPND = 4*4;
 
                 var colorScaleArc = function(d) {
-                  c = color_hash[d];
+                  c = colorHash[d];
 
                   if(c){return c;}
                   return "00FF00";
@@ -825,12 +855,11 @@
             function clickfunction (e){
               str =  e.key;
               clickfunctionValue(str);
-              d3version3.select("#idSelect3").node().value = str;
+              d3version3.select("#"+idSelect).node().value = str;
             }
 
             function clickfunctionValue (str){
-              console.log("931: " + str)
-                var table = d3version3.select('#idTable3')
+                var table = d3version3.select(idTable)
                 var tbody = table.select('tbody');
                 var rows = tbody.selectAll('tr')
                 .each(function (d) {
@@ -841,14 +870,14 @@
                 var rows = tbody.selectAll('tr')
                 .each(function (r) {
                     d3version3.select(this).style("visibility", function() {
-                        return (r["ODS_subgrupo"] == str || r["PND_subgrupo"] == str) ? "table-cell" : "collapse";
+                        return (r[colODSsubgrupo] == str || r[colPNDsubgrupo] == str) ? "table-cell" : "collapse";
                     });
                 });
                 rows.sort(function(a, b) {
 
                   if(str.includes("ODS")){
-                      subgroupA=a["PND_subgrupo"].split("_", 4)
-                      subgroupB=b["PND_subgrupo"].split("_", 4)
+                      subgroupA=a[colPNDsubgrupo].split("_", 4)
+                      subgroupB=b[colPNDsubgrupo].split("_", 4)
 
                       return d3version4.ascending(A[0], B[0]) ||
                       d3version4.ascending(parseInt(subgroupA[1]), parseInt(subgroupB[1])) ||
@@ -856,8 +885,8 @@
                       d3version4.ascending(parseInt(subgroupA[3]), parseInt(subgroupB[3]));
                       }
                   else{
-                      subgroupA=a["ODS_subgrupo"].split("_", 3);
-                      subgroupB=b["ODS_subgrupo"].split("_", 3);
+                      subgroupA=a[colODSsubgrupo].split("_", 3);
+                      subgroupB=b[colODSsubgrupo].split("_", 3);
 
                       return d3version4.ascending(A[0], B[0]) ||
                       d3version4.ascending(parseInt(subgroupA[1]), parseInt(subgroupB[1])) ||
@@ -961,37 +990,48 @@
               });
               return max;
             }
-        } // function HierarchicalEdgeBundleSection(color_hash){
-          /*fileCsv,
-          divSelect,
-          idSelect,
-          colMetaODS,
-          colGroup,
-          colSubgroup,
-          colObjetivoEstrategico,
-          arcClass,
-          stringObjetivoEstrategico,
-          tableHeaders,
-          idSVG,
-          fileJson,
-          idTable,
-          stringTitle,
-          colLeft,
-          colRight,
-          sunburstColor
-          */
-        color_hash = {
-          "ODS_1":"DC022F", "ODS_2":"D4972D", "ODS_3":"3F9336", "ODS_4":"B80B24", "ODS_5":"E72823", 
-          "ODS_6":"26B2E0", "ODS_7":"F9B912", "ODS_8":"900B35", "ODS_9":"EC5324", "ODS_10":"D30055", 
-          "ODS_11":"F48B21", "ODS_12":"B07B22", "ODS_13":"336E36", "ODS_14":"1D83CA", "ODS_15":"4BB037", 
-          "ODS_16":"13558D", "ODS_17":"123858",
+        } // function HierarchicalEdgeBundleSection(colorHash){
 
-          "PND_1_1":"F2B729", "PND_1_2":"F1B629", "PND_1_3":"F2B628", "PND_1_4":"F2B729", 
-          "PND_2_1":"F1B728", "PND_2_2":"1A3F7A", "PND_2_3":"1A3F79", "PND_2_4":"50872F",
-          "PND_3_1":"F2B729", "PND_3_2":"1A3F79", "PND_3_3":"1A3F79", "PND_3_4":"508730",
-          "PND_4_1":"F1B628", "PND_4_2":"E65631", "PND_4_3":"E55530", "PND_4_4":"508730",
-        };
-        HierarchicalEdgeBundleSection(color_hash);
+          fileCsv = "data/my_input3.csv"
+          divSelect = "#divSelect3"
+          idSelect = "idSelect3"
+          colODSsubgrupo = "ODS_subgrupo"
+          colPNDsubgrupo = "PND_subgrupo"
+          colODSgrupo = "ODS_grupo"
+          colPNDgrupo = "PND_grupo"
+          colMetaODS = "Meta ODS"
+          colObjetivoPND = "Objetivo PND"
+
+          tableHeaders = ["Meta ODS", "Objetivo PND", "Vinculación"]
+          idSVG = "#bundle"
+          fileJson = "data/my_input3.json"
+          idTable = '#idTable3'
+
+          colorHash = {
+            "ODS_1":"DC022F", "ODS_2":"D4972D", "ODS_3":"3F9336", "ODS_4":"B80B24", "ODS_5":"E72823", 
+            "ODS_6":"26B2E0", "ODS_7":"F9B912", "ODS_8":"900B35", "ODS_9":"EC5324", "ODS_10":"D30055", 
+            "ODS_11":"F48B21", "ODS_12":"B07B22", "ODS_13":"336E36", "ODS_14":"1D83CA", "ODS_15":"4BB037", 
+            "ODS_16":"13558D", "ODS_17":"123858",
+
+            "PND_1_1":"F2B729", "PND_1_2":"F1B629", "PND_1_3":"F2B628", "PND_1_4":"F2B729", 
+            "PND_2_1":"F1B728", "PND_2_2":"1A3F7A", "PND_2_3":"1A3F79", "PND_2_4":"50872F",
+            "PND_3_1":"F2B729", "PND_3_2":"1A3F79", "PND_3_3":"1A3F79", "PND_3_4":"508730",
+            "PND_4_1":"F1B628", "PND_4_2":"E65631", "PND_4_3":"E55530", "PND_4_4":"508730",
+          };
+          HierarchicalEdgeBundleSection(fileCsv,
+            divSelect,
+            idSelect,
+            colODSsubgrupo,
+            colPNDsubgrupo,
+            colODSgrupo,
+            colPNDgrupo,
+            colMetaODS,
+            colObjetivoPND,
+            tableHeaders,
+            idSVG,
+            fileJson,
+            idTable,
+            colorHash);
       </script>
 
       <script type="text/javascript" src="libs/packages.js"></script>
