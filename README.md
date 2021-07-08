@@ -1,3 +1,4 @@
+
 # Visualización de Vínculos PND-ODS
 Se desea visualizar los vínculos entre el Plan Nacional de Desarrollo de Paraguay y los Objetivos de Desarrollo Sostenible de la Agenda 2030. Se busca una visualización dinámica que sirva como mecanismo de difusión de los objetivos de desarrollo en el país para múltiples interesados, presentando el vínculo entre cada elemento del plan y su(s) correspondiente(s) objetivo(s).  
 - Versión inicial disponible en: https://rendich-cepal.web.app.  
@@ -26,7 +27,8 @@ Cada sección, u ODS, a su vez se compone de las secciones conectadas en el anil
 Puedes navegar por el gráfico, o utilizando la lista de la izquierda, con lo que se actualiza la tabla de la derecha.
 ![cepal2](https://user-images.githubusercontent.com/44811829/124857893-1880d580-df7b-11eb-93ff-c07c8c23ae66.gif)
 
-
+A modo de ejempo, las primera Metas del ODS 1:  
+<img width="652" src="https://user-images.githubusercontent.com/44811829/124859535-1f5d1780-df7e-11eb-9598-d5dd91096ebf.png">
 
 # Aspectos Técnicos
 ## Configuración
