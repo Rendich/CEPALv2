@@ -30,6 +30,14 @@ Puedes navegar por el gráfico, o utilizando la lista de la izquierda, con lo qu
 A modo de ejempo, las primera Metas del ODS 1:  
 <img width="652" src="https://user-images.githubusercontent.com/44811829/124859535-1f5d1780-df7e-11eb-9598-d5dd91096ebf.png">
 
+### Sección Plan Nacional de Desarrollo de Paraguay (PND). 
+Esta sección es equivalente a la anterior, pero para el PND.  
+
+### Sección Objetivos de Desarrollo Sostenible (ODS). 
+Este gráfico muestra tanto ODS como PND, y al pasar el mouse muestra sus interconexiones:
+![cepal4](https://user-images.githubusercontent.com/44811829/124860682-0eada100-df80-11eb-9385-de163cd7602b.gif)
+
+
 # Aspectos Técnicos
 ## Configuración
 Esta visualización  se crea con la funcion sunBurstSection, a través de los siguientes parámetros:
