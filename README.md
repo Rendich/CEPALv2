@@ -44,7 +44,7 @@ En este caso, las primeras filas del PND 4.4.2, donde se ven vinculaciones de lo
 
 # Aspectos Técnicos
 ## Configuración
-Esta visualización  se crea con la funcion sunBurstSection, a través de los siguientes parámetros:
+Para la primera y segunda visualización se utiliza la funcion sunBurstSection:
 ```
 sunBurstSection(fileCsv,
           divSelect,
@@ -64,6 +64,24 @@ sunBurstSection(fileCsv,
           colRight,
           sunburstColor)
 ```
+Para la tercera visualización se utiliza la función HierarchicalEdgeBundleSection:
+```
+          HierarchicalEdgeBundleSection(fileCsv,
+            divSelect,
+            idSelect,
+            colODSsubgrupo,
+            colPNDsubgrupo,
+            colODSgrupo,
+            colPNDgrupo,
+            colMetaODS,
+            colObjetivoPND,
+            tableHeaders,
+            idSVG,
+            fileJson,
+            idTable,
+            colorHash)
+```
+            
 ## Valores para la primera visualización:
 ```
         fileCsv = "data/my_input1.csv";
@@ -92,6 +110,7 @@ sunBurstSection(fileCsv,
           "DC022F", "D4972D", "3F9336", "B80B24", "E72823",  "26B2E0", "F9B912", "900B35", "EC5324", "D30055",
           "F48B21", "B07B22", "336E36", "1D83CA", "4BB037",  "13558D", "123858", 
         ]);
+        
 ```
 ## Valores para la segunda visualización:
 ```
@@ -121,6 +140,37 @@ sunBurstSection(fileCsv,
                 "F1B628", "E65631", "E55530", "508730"
               ]);
 ```
+
+
+## Valores para la tercera visualización:
+```
+          fileCsv = "data/my_input3.csv"
+          divSelect = "#divSelect3"
+          idSelect = "idSelect3"
+          colODSsubgrupo = "ODS_subgrupo"
+          colPNDsubgrupo = "PND_subgrupo"
+          colODSgrupo = "ODS_grupo"
+          colPNDgrupo = "PND_grupo"
+          colMetaODS = "Meta ODS"
+          colObjetivoPND = "Objetivo PND"
+          tableHeaders = ["Meta ODS", "Objetivo PND", "Vinculación"]
+          idSVG = "#bundle"
+          fileJson = "data/my_input3.json"
+          idTable = '#idTable3'
+          colorHash = {
+            "ODS_1":"DC022F", "ODS_2":"D4972D", "ODS_3":"3F9336", "ODS_4":"B80B24", "ODS_5":"E72823", 
+            "ODS_6":"26B2E0", "ODS_7":"F9B912", "ODS_8":"900B35", "ODS_9":"EC5324", "ODS_10":"D30055", 
+            "ODS_11":"F48B21", "ODS_12":"B07B22", "ODS_13":"336E36", "ODS_14":"1D83CA", "ODS_15":"4BB037", 
+            "ODS_16":"13558D", "ODS_17":"123858",
+
+            "PND_1_1":"F2B729", "PND_1_2":"F1B629", "PND_1_3":"F2B628", "PND_1_4":"F2B729", 
+            "PND_2_1":"F1B728", "PND_2_2":"1A3F7A", "PND_2_3":"1A3F79", "PND_2_4":"50872F",
+            "PND_3_1":"F2B729", "PND_3_2":"1A3F79", "PND_3_3":"1A3F79", "PND_3_4":"508730",
+            "PND_4_1":"F1B628", "PND_4_2":"E65631", "PND_4_3":"E55530", "PND_4_4":"508730",
+          }
+```
+
+
 ## Base y Agradecimientos
 La primera y segunda visualización se basa en:
 https://observablehq.com/@d3/zoomable-sunburst, con licencia ISC License.  
